@@ -572,11 +572,20 @@ Once you have completed this section you will be able to explain how adding spec
 
 None. 
 
+
+
+
+*** { @unit = "", @title = "Control Variables", @lecture, @foldout }
+
+<br>
+<br>
+
 ## Lecture Materials
 
 [Lecture 06 on Control Variables](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/p-06-control-variables.pdf)
 
-
+<br>
+<br>
 
 
 
@@ -666,8 +675,17 @@ The study in the article was commissioned because of anedcotal evidence of a str
 
 **When are omitted variables a problem? What makes a variable a competing hypothesis?**  
 
+<br>
+<br>
+
+
+
+*** { @unit = "", @title = "Omitted Variable Bias", @lecture, @foldout }
 
 ## Lecture Materials
+
+<br>
+<br>
 
 Lecture Notes: **Omitted Variable Bias** [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/p-07-omitted-variable-bias.pdf) ]  
 Lecure Notes: **A Taxonomy of Control Variables** [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/taxonomy-of-control-variables.pdf) ]  
@@ -763,6 +781,13 @@ Adding dummy variables to models allows us to test several hypotheses about diff
 
 Once you have completed this section you will be able to run and interpret regression models with dummy variables and interaction effects. 
 
+<br>
+<br>
+
+
+
+
+*** { @unit = "", @title = "Adding Groups to Regression Models", @lecture, @foldout }
 
 ## Assigned Lecture Materials
 
@@ -772,6 +797,10 @@ Once you have completed this section you will be able to run and interpret regre
 ## Lab Preview 
 
 [Practice Questions](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Regression%20with%20Interaction%20Effects.pdf)
+
+<br>
+<br>
+
 
 
 
@@ -841,7 +870,14 @@ Once you have completed this section you will be able to:
 * Specify a quadratic model for non-linear relationships 
 * Interpret a logged regression 
 
+<br>
+<br>
 
+
+
+
+
+*** { @unit = "", @title = "Specification Bias", @lecture, @foldout }
 
 ## Lecture Materials
 
@@ -910,6 +946,8 @@ Please post questions on the discussion board if you are not sure of the correct
 
 <br>
 <br>
+
+
 
 
 
@@ -1005,8 +1043,9 @@ Please post questions on the discussion board, or email me for a Zoom call if yo
 <br>
 <br>
 
-*** { @unit = "Open Oct-07 to 12", @title = "Final Exam", @assignment, @foldout}
 
+
+*** { @unit = "Open Oct-07 to 12", @title = "Final Exam", @assignment, @foldout}
 
 <br>
 <br>
