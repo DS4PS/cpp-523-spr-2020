@@ -301,9 +301,12 @@ This section provides a review of the basic building blocks of a bivariate regre
 * the "error term" or "residual"
 * standard errors 
 
+
 ## Learning Objectives
 
 Once you have completed this section you will be able to conceptually understand what a regression slope represents (the conditional mean), how residuals are created, and what the standard error is measuring. 
+
+Test your baseline knowledge of this model with the [regression review handout](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Regression-Review-Self-Test.pdf). 
 
 
 ## Assigned and Recommended Articles or Chapters
