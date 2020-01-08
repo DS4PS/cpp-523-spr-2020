@@ -9,14 +9,14 @@ title: Resources
 
 ## Handouts 
 
-* Common Statistics Notation [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Common-Statistics-Notation.pdf) ] 
-* Regression Review Assessment  [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Regression-Review-Self-Test.pdf) ]
-* Anscomb's Quartet  [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Anscombes-Quartet.pdf) ]
+* Regression Review Assessment  [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Regression-Review-Self-Test.pdf) ]
+* Common Statistics Notation [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Common-Statistics-Notation.pdf) ] 
+* Anscomb's Quartet  [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Anscombes-Quartet.pdf) ]
 * Omitted Variable Bias Calculation  
-* Seven Sins of Regression  [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Seven-Sins-of-Regression-Analysis.pdf) ]
-* Marginal Effects in Quadratic Model  [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Marginal-Effects-in-Quadratic-Regression-Models.pdf) ]
-* Dummy Variables with Interactions  [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/handouts/Regression-with-Interaction-Effects.pdf) ]  
-* A Taxonomy of Control Variables [ [pdf](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/lectures/taxonomy-of-control-variables.pdf) ]  
+* Seven Sins of Regression  [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Seven-Sins-of-Regression-Analysis.pdf) ]
+* Marginal Effects in Quadratic Model  [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Marginal-Effects-in-Quadratic-Regression-Models.pdf) ]
+* Dummy Variables with Interactions  [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Regression-with-Interaction-Effects.pdf) ]  
+* A Taxonomy of Control Variables [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/taxonomy-of-control-variables.pdf) ]  
 
 
 ## Regression Tutorial for R
@@ -52,7 +52,7 @@ title: Resources
 ## Reference Books
 
 * Intro to Stats review in R [ [teacup giraffe textbook](https://tinystats.github.io/teacups-giraffes-and-statistics/) ]
-* [OpenIntro Statistics](https://github.com/DS4PS/cpp-523-fall-2019/raw/master/pubs/openintro-statistics-sample.pdf)
+* [OpenIntro Statistics](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/openintro-statistics-sample.pdf)
   - CH-08 Intro to Regression 
 * [Discovering Statistics in R](https://www.amazon.com/Discovering-Statistics-Using-Andy-Field/dp/1446200469)
   - Comprehensive guide to using R for a variety of statistical models 
