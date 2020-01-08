@@ -346,11 +346,14 @@ Lewis-Beck, C., & Lewis-Beck, M. (2015). Applied regression: An introduction (Vo
 
 ## Lecture Materials
 
-Lecture: [ [Building a regression model](https://ds4ps.org/cpp-523-spr-2020/lectures/caffeine.html) ]
-
 Is caffeine good for you? [ [link](https://www.hsph.harvard.edu/news/hsph-in-the-news/coffee-depression-women-ascherio-lucas/) ]
 
-*Is caffeine a treatment in this study? How do we know caffeine is the cause of the outcomes we see here?*
+*Is caffeine a treatment in this study? How do we know caffeine is the cause of the outcomes we see in this study?*
+
+*Before we can understand causal impact we must first create a regression model that tells us about the RELATIONSHIP between caffeine intake and heart rate. We will then add nuance to our understanding of when the relationship can be interpretted as casual, and when it is simply correlational.*
+
+Lecture: [ [Building a regression model](https://ds4ps.org/cpp-523-spr-2020/lectures/caffeine.html) ]
+
 
 
 ## Data Used in this Section
