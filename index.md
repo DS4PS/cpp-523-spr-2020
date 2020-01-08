@@ -13,28 +13,28 @@ info:
  course_title: Foundations of Program Evaluation Part I
  course_number: CPP 523 
  course_level: Graduate 
- course_website: 'https://canvas.asu.edu/courses/29527'
- course_start_end_dates: Aug 22 to Oct 11, 2019  
+ course_website: 'https://canvas.asu.edu'
+ course_start_end_dates: Jan 13 to Mar 03, 2020 
  course_prerequisites: College Level Intro. to Stats 
  class_meets_when:  Asynchronous  
- class_meets_where:  'https://asu.zoom.us/j/944016877'
+ class_meets_where:  'https://asu.zoom.us'
  review_sessions_when: TBD 
  review_sessions_where: UCENT Policy Analytics Lab 4th Floor + Zoom
- discussion_board_url: 'https://ds4ps.org/cpp-523-fall-2019/help/'
+ discussion_board_url: 'https://ds4ps.org/cpp-523-spr-2020/help/'
 
 instructor:
--  name: Jesse Lecy, PhD
+-  name: Irene Tsapara, PhD
    title: Professor
-   email: jdlecy@asu.edu
-   office_location: UCENT 517
-   website_url: www.lecy.info
-   github_url: 'https://github.com/lecy' 
+   email: email@address
+   office_location: virtual
+   website_url: 
+   github_url: 'https://github.com/tsapara' 
    twitter_url: 
-   scholar_url: 'https://scholar.google.com/citations?user=Ir8H4wMAAAAJ&hl=en'
-   linked_in_url:
-   office_hours_time: Flexible
-   office_hours_location:  Zoom or Office
-   office_hours_app_url:  'https://calendly.com/lecy/15min'
+   scholar_url: 
+   linked_in_url: 'https://www.linkedin.com/in/irene-tsapara-8a1a04b5/'
+   office_hours_time: By appointment
+   office_hours_location:  Zoom
+   office_hours_app_url:  'https://calendly.com/tsapara/15min'
    
 
 textbooks:
@@ -52,24 +52,6 @@ textbooks:
 --- 
 
 
-<style> 
-body {
-   font-family: "Roboto", sans-serif;
-}
- 
-p.italic {
-  font-style: italic;
-  color: black !important;
-}
-
-em {
-  color: black !important;
-  }
-
-#fa-icon {
-  font-style: normal;
-}
-</style>
 
 
 
@@ -254,7 +236,7 @@ Grades for the course are largely based on weekly labs. Assigned work is accompa
 
 **Course content** is hosted on this website. Lecture files, assignments and other course communications will be transmitted via this site and/or through the class email list. **All assignment submissions** will be made through the [Canvas shell](https://canvas.asu.edu). 
 
-Please post lab questions on the [Get Help](https://ds4ps.github.io/cpp-523-fall-2019/help/) page on this site, schedule individual office hours using the Calendly link provided above, and email the instructor directly instead of using the Canvas system. 
+Please post lab questions on the [Get Help](/help/) page on this site, schedule individual office hours using the Calendly link provided above, and email the instructor directly instead of using the Canvas system. 
 
 Students should be aware that the course instructor will attempt to respond to any course-related email as quickly as possible. Students are asked to allow between 24 and 48 hours for replies to direct instructor emails, generally, as a reasonable time to reply to questions or other issues posed in an email. Additionally, the general timeline for instructor grading or other feedback on assignments, either writer work or online discussion work, is between 5 and 10 work days.
 
@@ -305,11 +287,6 @@ Please note: the course instructor may from time to time adjust assigned reading
 - Baily Section 5.2-Omitted Variable Bias
 - Lab #4 – Omitted Variable Bias
 
-Preview of Program Eval III:
-
-**Correcting Bias – Instrumental Variables and Fixed Effects**
-- Baily CH8: Fixed Effect Models; CH9 – Instrumental Variable Models
-
 ### Unit 5 - Dummy Variables 
 
 **Model Specification**
@@ -334,3 +311,30 @@ Preview of Program Eval III:
 
 <br>
 <br>
+
+
+
+
+
+
+
+
+
+<style> 
+body {
+   font-family: "Roboto", sans-serif;
+}
+ 
+p.italic {
+  font-style: italic;
+  color: black !important;
+}
+
+em {
+  color: black !important;
+  }
+
+#fa-icon {
+  font-style: normal;
+}
+</style>
