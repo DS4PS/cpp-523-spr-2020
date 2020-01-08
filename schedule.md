@@ -277,14 +277,9 @@ And the dashboard example in R can be found here:
 
 
 
+
+
 ** Week 1 - Nuts and Bolts of Regression Models
-
-
-
-
-
-
-
 
 
 
@@ -375,7 +370,7 @@ summary( model.01 )
 
 
 
-*** { @unit = "WED Aug-28", @title = "Lab 01", @assignment, @foldout   }
+*** { @unit = "FRI Jan-17", @title = "Lab 01", @assignment, @foldout   }
 
 
 ## Lab 01 - Regression Review
@@ -511,7 +506,7 @@ You might find this summary of notation helpful [pdf](https://github.com/DS4PS/c
 
 
 
-*** { @unit = "FRI Aug-30", @title = "Mini-Assessment", @assignment, @foldout  }
+*** { @unit = "TUE Jan-21", @title = "Mini-Assessment", @assignment, @foldout  }
 
 
 This mini-assessment consists of four multiple-choice questions. You have thirty minutes to complete from the time you start the assessment. 
@@ -522,7 +517,7 @@ This mini-assessment consists of four multiple-choice questions. You have thirty
 
 
 
-*** { @unit = "MON Sept-02", @title = "Lab 02", @assignment, @foldout  }
+*** { @unit = "FRI Jan-24", @title = "Lab 02", @assignment, @foldout  }
 
 
 <br>
@@ -590,7 +585,7 @@ None.
 
 
 
-*** { @unit = "FRI Sept-06", @title = "Mini-Assessment", @assignment, @foldout   }
+*** { @unit = "TUE Jan-28", @title = "Mini-Assessment", @assignment, @foldout   }
 
 <br>
 <br>
@@ -610,7 +605,7 @@ This mini-assessment tests your understanding of the interpretation of [statisti
 
 
 
-*** { @unit = "MON Sept-09", @title = "Lab 03", @assignment, @foldout  }
+*** { @unit = "FRI Jan-31", @title = "Lab 03", @assignment, @foldout  }
 
 
 <br>
@@ -706,7 +701,7 @@ Lecure Notes: **A Taxonomy of Control Variables** [ [pdf](https://github.com/DS4
 
 
 
-*** { @unit = "FRI Sept-13", @title = "Mini-Assessment", @assignment, @foldout   }
+*** { @unit = "TUE Feb-04", @title = "Mini-Assessment", @assignment, @foldout   }
 
 <br>
 <br>
@@ -730,7 +725,7 @@ This mini-assessment tests your understanding of the differences between the two
 
 
 
-*** { @unit = "TUE Sept-17", @title = "Lab 04", @assignment, @foldout  }
+*** { @unit = "FRI Feb-07", @title = "Lab 04", @assignment, @foldout  }
 
 <br>
 <br>
@@ -804,7 +799,7 @@ Once you have completed this section you will be able to run and interpret regre
 
 
 
-*** { @unit = "SUN Sept-22", @title = "Mini-Assessment", @assignment, @foldout  }
+*** { @unit = "TUE Feb-11", @title = "Mini-Assessment", @assignment, @foldout  }
 
 <br>
 <br>
@@ -820,7 +815,7 @@ This mini-assessment tests your understanding of the interpretation of the impac
 
 
 
-*** { @unit = "TUES Sept-24", @title = "Lab 05", @assignment, @foldout  }
+*** { @unit = "FRI Feb-14", @title = "Lab 05", @assignment, @foldout  }
 
 
 <br>
@@ -896,9 +891,10 @@ For this lab you will run and interpret a quadratic regression, and interpret co
 
 
 
+*** { @unit = "", @title = "No Mini-Assessment This Week", @assignment  }
 
 
-*** { @unit = "WED Oct-02", @title = "Lab 06", @assignment, @foldout  }
+*** { @unit = "FRI Feb-21", @title = "Lab 06", @assignment, @foldout  }
 
 <br>
 <br>
@@ -918,7 +914,6 @@ When you are complete:
 
 
 
-*** { @unit = "", @title = "No Mini-Assessment This Week", @assignment  }
 
 
 
@@ -1007,7 +1002,7 @@ Some longer notes: Seven Sins of Regression [ [pdf](https://github.com/DS4PS/cpp
 
 
 
-*** { @unit = "MON Oct 07", @title = "Mini-Assessment", @assignment, @foldout  }
+*** { @unit = "TUE Feb-25", @title = "Mini-Assessment", @assignment, @foldout  }
 
 <br>
 <br>
@@ -1031,7 +1026,7 @@ It is recommended you complete it before you final exam to get a sense of the ty
 
 ** FINAL EXAM
 
-*** { @unit = "MON Oct 7 12pm AZ", @title = "Review Session", @lecture, @foldout }
+*** { @unit = "FRI Feb-28", @title = "Review Session", @lecture, @foldout }
 
 <br>
 <br>
@@ -1045,12 +1040,12 @@ Please post questions on the discussion board, or email me for a Zoom call if yo
 
 
 
-*** { @unit = "Open Oct-07 to 12", @title = "Final Exam", @assignment, @foldout}
+*** { @unit = "Open Feb 29 to March 02", @title = "Final Exam", @assignment, @foldout}
 
 <br>
 <br>
 
-You can start the exam any time between Monday and Saturday Oct 12th. You have 4 hours to complete the exam once it is started. 
+You can start the exam any time between Saturday, February 29th and Monday, March 2nd. You have 4 hours to complete the exam once it is started. 
 
 You are allowed to look back over your notes and use a calculator for help with math.
 
