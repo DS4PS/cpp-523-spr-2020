@@ -316,10 +316,38 @@ Reichardt, C. S., & Bormann, C. A. (1994). Using regression models to estimate p
 
 ### For reference:
 
-Diez, D. M., Barr, C. D., & Cetinkaya-Rundel, M. (2012). OpenIntro statistics (pp. 174-175). OpenIntro. [ [**CH-08 Introduction to Linear Regression**](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/openintro-statistics-sample.pdf) ]
+Diez, D. M., Barr, C. D., & Cetinkaya-Rundel, M. (2012). OpenIntro statistics (pp. 174-175). OpenIntro. [__[**CH-08 Introduction to Linear Regression**](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/openintro-statistics-sample.pdf)__]
 
-Multiple Regression overview chapter [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/Multiple%20Regression.pdf) ]
+Multiple Regression overview chapter [__[pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/Multiple%20Regression.pdf)__]
 
+
+## Lab Preview 
+
+Lab-01 Regression Review covers the following topics:
+
+* Regression slopes 
+* Intercept 
+* Residuals 
+* Explained variance 
+
+Reference material for the lab:  
+
+Lewis-Beck, C., & Lewis-Beck, M. (2015). Applied regression: An introduction (Vol. 22). Sage publications. [__[pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/Applied%20Regression%20Lewis-Beck.pdf)__]
+
+
+
+
+
+
+*** { @unit = "", @title = "Building a Regression Model", @lecture, @foldout   }
+
+## Lecture Materials
+
+Lecture: [ [Building a regression model](https://ds4ps.org/cpp-523-spr-2020/lectures/caffeine.html) ]
+
+Is caffeine good for you? [ [link](https://www.hsph.harvard.edu/news/hsph-in-the-news/coffee-depression-women-ascherio-lucas/) ]
+
+*Is caffeine a treatment in this study? How do we know caffeine is the cause of the outcomes we see here?*
 
 
 ## Data Used in this Section
@@ -336,28 +364,7 @@ model.01 <- lm( heart.rate ~ caffeine, data=dat )
 summary( model.01 )
 ```
 
-## Lecture Materials
-
-Lecture: [ [Building a regression model](https://ds4ps.org/cpp-523-spr-2020/lectures/caffeine.html) ]
-
-Is caffeine good for you? [ [link](https://www.hsph.harvard.edu/news/hsph-in-the-news/coffee-depression-women-ascherio-lucas/) ]
-
-*Is caffeine a treatment in this study? How do we know caffeine is the cause of the outcomes we see here?*
-
-
-
-## Lab Preview 
-
-Lab-01 Regression Review covers the following topics:
-
-* Regression slopes 
-* Intercept 
-* Residuals 
-* Explained variance 
-
-Good reference for formulas:  
-
-Lewis-Beck, C., & Lewis-Beck, M. (2015). Applied regression: An introduction (Vol. 22). Sage publications. [ [pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/Applied%20Regression%20Lewis-Beck.pdf) ]
+<br>
 
 
 
@@ -415,6 +422,7 @@ If you have questions, please post them to the [Assignment Discussion Board](htt
 
 <a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/745249">Submit Lab-01</a>
 
+<br>
 
 
 
