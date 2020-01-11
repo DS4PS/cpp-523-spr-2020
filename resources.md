@@ -21,7 +21,7 @@ title: Resources
 
 ## Regression Tutorial for R
 
-* UC Business Analytics[ [link](https://uc-r.github.io/linear_regression) ]
+* UC Business Analytics (••[link](https://uc-r.github.io/linear_regression)••)
 * By Manny Gimond [ [link](http://mgimond.github.io/Stats-in-R/regression.html) ]
 * Listen Data [ [link](https://www.listendata.com/2015/09/linear-regression-with-r.html) ]
 * Machine Learning Plus [ [link](https://www.machinelearningplus.com/machine-learning/complete-introduction-linear-regression-r/) ]
