@@ -261,7 +261,7 @@ And the dashboard example in R can be found here:
 
 
 
-*** { @unit = "", @title = "Getting Help", @foldout  }
+*** { @unit = "", @title = "Getting Help", @assignment, @foldout  }
 
 
 ## Getting Help
@@ -305,9 +305,15 @@ b1 = cov(x,y) / var(x)
 ```
 ````
 
+----
+
 These courses are designed to be interactive, and a lot of learning occurs by practicing the technical jargon from the field and learning how to talk about data and models. 
 
 Please reach out if you have questions or feel stuck!  
+
+**PRACTICE:**
+
+Navigate to the [Help! Board](https://ds4ps.github.io/cpp-523-spr-2020/help/) for the course. Click on the **practice post**, and reply by telling the class your name and your favorite mathematical formula. 
 
 <br>
 <br>
