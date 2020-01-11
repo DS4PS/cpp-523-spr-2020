@@ -213,8 +213,6 @@ I will also add books, articles, tutorials and reference sheets to the [Resource
 
 
 
-
-
 *** { @unit = "", @title = "ORIENTATION to R", @lecture, @foldout   }
 
 
@@ -326,6 +324,11 @@ Navigate to the [Help! Board](https://ds4ps.github.io/cpp-523-spr-2020/help/) fo
 
 
 
+
+
+
+
+
 ** Week 1 - Nuts and Bolts of Regression Models
 
 
@@ -399,6 +402,8 @@ This review will be useful to benchmark your knowledge about regression models, 
 
 
 
+
+
 *** { @unit = "", @title = "Building a Regression Model", @lecture, @foldout  }
 
 ## Lecture Materials
@@ -428,6 +433,8 @@ summary( model.01 )
 ```
 
 <br>
+
+
 
 
 
@@ -462,28 +469,30 @@ Lewis-Beck, C., & Lewis-Beck, M. (2015). Applied regression: An introduction (Vo
 
 -----
 
+This first lab is designed as a review (or getting up to speed) assignment to direct your attention on a handful of important regression formulas we will use this semester. For the most part we will rely on the computer the do the math for us, but these formulas are important for our conceptual understanding of the regressions, so there is value in working through a simple example (five data points) by hand. 
 
-For THIS ASSIGNMENT all of the work is done by hand so you can type your answers right into the attached word document:
+For THIS ASSIGNMENT ONLY all of the work is **done by hand** so you can type your answers right into the attached word document:
 
 [Lab-01 Instructions](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/labs/Lab-01-Regression-Review.docx)
+
+Please show the steps for each calculation. You can check your results in R or on a calculator when you are done.
 
 Save it using the naming convention:
 
 Lab-##-LastName.doc
 
-And submit via Canvas. Please show your work (include the basic steps for each calculation).
+And submit via Canvas. 
+
+<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/745249">Submit Lab-01</a>
 
 
 -----
 
-
 For future assignments we will be using R Markdown documents so that you can run models and submit the results directly. 
 
-Since this is meant as a review (or getting up to speed) assignment it is due Monday. You will, however, have a full week for subsequent labs. 
+ it is due Monday. You will, however, have a full week for subsequent labs. 
 
 If you have questions, please post them to the [Assignment Discussion Board](https://ds4ps.org/cpp-523-spr-2020/help/).
-
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/745249">Submit Lab-01</a>
 
 <br>
 
