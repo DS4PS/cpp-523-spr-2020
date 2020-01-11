@@ -299,10 +299,7 @@ This section provides a review of the basic building blocks of a bivariate regre
 
 ## Learning Objectives
 
-Once you have completed this section you will be able to conceptually understand what a regression slope represents (the conditional mean), how residuals are created, and what the standard error is measuring. 
-
-Test your baseline knowledge of this model with the [regression review handout](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Regression-Review-Self-Test.pdf). 
-
+Once you have completed this section you will be able to conceptually understand what a regression slope represents (the conditional mean), the formulas for regression coefficients, and the tabulation of residuals. 
 
 ## Assigned and Recommended Articles or Chapters
 
@@ -333,11 +330,29 @@ Reference material for the lab:
 Lewis-Beck, C., & Lewis-Beck, M. (2015). Applied regression: An introduction (Vol. 22). Sage publications. [__[pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/Applied%20Regression%20Lewis-Beck.pdf)__]
 
 
+*** { @unit = "", @title = "Regression Review", @lecture, @foldout   }
+
+<br>
+
+Test your baseline knowledge of regression models model with the [regression review handout](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Regression-Review-Self-Test.pdf). 
+
+This review will be useful to benchmark your knowledge about regression models, and offers a good reference for the concepts that you should focus on over the first three weeks of class. On the final exam you will be expected to demonstrate an understanding of:
+
+* Variance and covariance 
+* The sampling distribution 
+* Standard deviation 
+* Standard error 
+* Confidence intervals 
+* Slope 
+* "Explained" variance 
+
+<br>
+<br>
 
 
 
 
-*** { @unit = "", @title = "Building a Regression Model", @lecture, @foldout   }
+*** { @unit = "", @title = "Building a Regression Model", @lecture, @foldout  }
 
 ## Lecture Materials
 
