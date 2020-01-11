@@ -30,7 +30,7 @@ title: Resources
 * much nicer but more complex animations [ [link](https://rpsychologist.com/archives) ]
   - [Correlation w Venn Diagrams](https://rpsychologist.com/d3/correlation/)
   - [confidence intervals](https://rpsychologist.com/d3/CI/)
-  
+* Mathematics in R Markdown [__[link](https://www.calvin.edu/~rpruim/courses/s341/S17/from-class/MathinRmd.html)__]  
 
 ## Creating Nice Tables in RMD
 
