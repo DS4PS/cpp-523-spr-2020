@@ -314,7 +314,7 @@ Reichardt, C. S., & Bormann, C. A. (1994). Using regression models to estimate p
 
 ### For reference:
 
-Diez, D. M., Barr, C. D., & Cetinkaya-Rundel, M. (2012). OpenIntro statistics (pp. 174-175). OpenIntro. [__[**CH-08 Introduction to Linear Regression**](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/openintro-statistics-sample.pdf)__]
+Diez, D. M., Barr, C. D., & Cetinkaya-Rundel, M. (2012). OpenIntro statistics (pp. 174-175). OpenIntro. [[**CH-08 Introduction to Linear Regression**](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/openintro-statistics-sample.pdf)]
 
 Multiple Regression overview chapter [__[pdf](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/Multiple%20Regression.pdf)__]
 
