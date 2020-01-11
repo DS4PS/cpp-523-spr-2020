@@ -266,15 +266,17 @@ And the dashboard example in R can be found here:
 
 ## Getting Help
 
-Nerds are stereotypically perceived as being hermetic, but in reality they have just created their own universes and civilizations. Surprisingly coding is a very social activity, and real-world analytics projects are almost always collaborative. You will learn how to use discussion boards to accelerate learning and facilitate collaboration, and social coding tools like GitHub to manage large data project. 
+Nerds are stereotypically perceived as being anti-social, but in reality data analytics is a very social activity and real-world analytics projects are almost always collaborative. 
+
+Learning how to seek help and use discussion boards will accelerate learning and facilitate collaboration. Social coding tools like GitHub use these features extensively. 
 
 We are going to throw a lot at you, but also provide a lot of support. Over these first couple of weeks feel free to reach out for anything you might need. 
 
-If you find something confusing let me know (likely others will as well). 
+If you find something confusing let us know (likely others will find it confusing as well). 
 
-* We can jump on a [Zoom call](https://calendly.com/lecy/15min?month=2019-08) to do a screen share if you want to walk through anything.   
+* We can jump on a [Zoom call](https://calendly.com/lecy/15min?month=2019-08) to do a screen share if you want to walk through anything. 
 * You can post a question to the homework discussion board for [data science I](https://ds4ps.org/cpp-526-spr-2020/help/) or [program evaluation I](https://ds4ps.org/cpp-523-spr-2020/help/).  
-* And you can request a walk-through of a problem. 
+* Or you can request a walk-through of a problem. The instructor will provide an example with the solution. 
 
 As a general rule of thumb, if you are stuck on the math or code for a problem, need clarification about what the question is asking, want to make sure you understand a formula, or are having similar issues then the help discussion page is the easiest and quickest way to get help. If you are confused about concepts or having a hard time even formulating your question then virtual office hours are your best option.
 
