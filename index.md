@@ -13,13 +13,13 @@ info:
  course_title: Foundations of Program Evaluation Part I
  course_number: CPP 523 
  course_level: Graduate 
- course_website: 'https://canvas.asu.edu'
+ course_website: 'https://canvas.asu.edu/courses/41574'
  course_start_end_dates: Jan 13 to March 03, 2020 
  course_prerequisites: College Level Intro. to Stats 
  class_meets_when:  Asynchronous  
  class_meets_where:  'https://asu.zoom.us'
  review_sessions_when: TBD 
- review_sessions_where: UCENT Policy Analytics Lab 4th Floor + Zoom
+ review_sessions_where: 
  discussion_board_url: 'https://ds4ps.org/cpp-523-spr-2020/help/'
 
 instructor:
@@ -28,13 +28,13 @@ instructor:
    email: email@address
    office_location: virtual
    website_url: 
-   github_url: 'https://github.com/tsapara' 
+   github_url: '' 
    twitter_url: 
    scholar_url: 
    linked_in_url: 'https://www.linkedin.com/in/irene-tsapara-8a1a04b5/'
    office_hours_time: By appointment
    office_hours_location:  Zoom
-   office_hours_app_url:  'https://calendly.com/tsapara/15min'
+   office_hours_app_url:  ''
    
 
 textbooks:
@@ -208,13 +208,12 @@ Letter grades comport with a traditional set of intervals:
 
 The assigned work for the term comes in the form of four elements, described below:
 
-- **Rapid Assessments (10%):** Some lecturse will be accompanied by a short (1-5 question) multiple choice or regression-based quiz. These are designed to ensure that you are grasping the important concepts associated with each lecture. The content in this class is cumulative, the material each week building upon the previous week. We cover complex topics with a lot of nuances, so you may feel uncomfortable if you don't understand everything from a lecture. Don't worry – we will revisit a lot of this material many times through the program to reinforce important ideas and introduce more detail in subsequent stages. These quizzes are designed to give you immediate feedback about whether you grasped the core concepts so that you can spend more time on some material or seek help when necessary.
-
 - **Weekly Labs (50%):**  Each week you will receive a lab that will help you synthesize the lectures from the week though exercises that involve data, analysis, and important formulas from the lectures. These labs contain exercises that are similar in form or difficulty to what will be presented on the final exam. They are graded pass / fail by the instructors based upon an assessment of whether you have sincerely attempted the lab and answered over half of the questions correctly. This is designed to hold you accountable for the material, but not create anxiety about perfection. Each lab is worth 10 points so that you can drop one lab in case you get sick or busy. 
+
+- **Rapid Assessments (10%):** Some lecturse will be accompanied by a short (1-5 question) multiple choice or regression-based quiz. These are designed to ensure that you are grasping the important concepts associated with each lecture. The content in this class is cumulative, the material each week building upon the previous week. We cover complex topics with a lot of nuances, so you may feel uncomfortable if you don't understand everything from a lecture. Don't worry – we will revisit a lot of this material many times through the program to reinforce important ideas and introduce more detail in subsequent stages. These quizzes are designed to give you immediate feedback about whether you grasped the core concepts so that you can spend more time on some material or seek help when necessary.
 
 - **Final Exam (40%):**  The course will close with a written final exam which will be comprehensive in nature. The exam will be an individual effort with no exceptions.  In no way shape or form should will it be permissible to discuss any aspect of the exam with anyone else; neither classmates nor anyone else should be consulted while students complete the exam. Notes and textbooks are permitted during the exam. It will be designed as a means of testing overall comprehension of key concepts and issues covered during the term, and as a check on course learning objectives being met.
 
-- **Review Sessions (0%):**  You will have the opportunity to participate in online review sessions designed to answer questions related to labs, review key concepts, and prepare for the final exam. New material will not be presented, but we will review content pertaining to assigned reading materials, video, or other similar materials provided. Students are encouraged to bring questions, respond to discussion topics that are provided, as well as responding meaningfully to other student responses. Participation is encouraged, but not required. 
 
 ## D. General Grading Rubric for Written Work
 
