@@ -1077,7 +1077,7 @@ Some longer notes: Seven Sins of Regression [ [pdf](https://github.com/DS4PS/cpp
 
 
 
-*** { @unit = "TUE Feb-25", @title = "Mini-Assessment", @assignment, @foldout  }
+*** { @unit = "TUE Feb-25", @title = "Mini-Assessment", @assignment  }
 
 <br>
 <br>
