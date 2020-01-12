@@ -579,7 +579,7 @@ You might find this summary of notation helpful [**pdf**](https://github.com/DS4
 
 
 
-*** { @unit = "TUE Jan-21", @title = "Mini-Assessment", @assignment, @foldout  }
+*** { @unit = "TUE Jan-21", @title = "Mini-Assessment", @assignment }
 
 
 This mini-assessment consists of four multiple-choice questions. You have thirty minutes to complete from the time you start the assessment. 
@@ -658,7 +658,7 @@ None.
 
 
 
-*** { @unit = "TUE Jan-28", @title = "Mini-Assessment", @assignment, @foldout   }
+*** { @unit = "TUE Jan-28", @title = "Mini-Assessment", @assignment }
 
 <br>
 <br>
@@ -774,7 +774,7 @@ Lecure Notes: **A Taxonomy of Control Variables** [ [pdf](https://github.com/DS4
 
 
 
-*** { @unit = "TUE Feb-04", @title = "Mini-Assessment", @assignment, @foldout   }
+*** { @unit = "TUE Feb-04", @title = "Mini-Assessment", @assignment   }
 
 <br>
 <br>
@@ -872,7 +872,7 @@ Once you have completed this section you will be able to run and interpret regre
 
 
 
-*** { @unit = "TUE Feb-11", @title = "Mini-Assessment", @assignment, @foldout  }
+*** { @unit = "TUE Feb-11", @title = "Mini-Assessment", @assignment  }
 
 <br>
 <br>
@@ -964,7 +964,9 @@ For this lab you will run and interpret a quadratic regression, and interpret co
 
 
 
-*** { @unit = "", @title = "No Mini-Assessment This Week", @assignment  }
+*** { @unit = "", @title = "Mini-Assessment", @assignment  }
+
+
 
 
 *** { @unit = "FRI Feb-21", @title = "Lab 06", @assignment, @foldout  }
