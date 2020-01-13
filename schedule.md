@@ -3,7 +3,7 @@ layout: schedule
 title: Schedule
 
 canvas: 
-  assignment_url: 'https://canvas.asu.edu/courses/29527/assignments'
+  assignment_url: 'https://canvas.asu.edu/courses/41574/assignments'
   
 ---
  
@@ -259,7 +259,7 @@ And the dashboard example in R can be found here:
 
 
 
-*** { @unit = "", @title = "Getting Help", @assignment, @foldout  }
+*** { @unit = "", @title = "Getting Help", @assignment, @foldout }
 
 
 ## Getting Help
@@ -483,7 +483,7 @@ Lab-##-LastName.doc
 
 And submit via Canvas. 
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41574/assignments/959505">Submit Lab-01</a>
+<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41574/assignments/959505">Submit Lab-01</a> 
 
 
 -----
@@ -560,7 +560,7 @@ If we create confidence intervals around these guesses, we can see that 95 out o
 
 
 
-*** { @unit = "", @title = "Regression Mechanics", @lecture, @foldout   }
+*** { @unit = "", @title = "Regression Mechanics", @lecture, @foldout }
 
 ## Lecture Materials
 
@@ -774,7 +774,7 @@ Lecure Notes: **A Taxonomy of Control Variables** [ [pdf](https://github.com/DS4
 
 
 
-*** { @unit = "TUE Feb-04", @title = "Mini-Assessment", @assignment   }
+*** { @unit = "TUE Feb-04", @title = "Mini-Assessment", @assignment }
 
 <br>
 <br>
@@ -872,7 +872,7 @@ Once you have completed this section you will be able to run and interpret regre
 
 
 
-*** { @unit = "TUE Feb-11", @title = "Mini-Assessment", @assignment  }
+*** { @unit = "TUE Feb-11", @title = "Mini-Assessment", @assignment }
 
 <br>
 <br>
@@ -888,7 +888,7 @@ This mini-assessment tests your understanding of the interpretation of the impac
 
 
 
-*** { @unit = "FRI Feb-14", @title = "Lab 05", @assignment, @foldout  }
+*** { @unit = "FRI Feb-14", @title = "Lab 05", @assignment, @foldout }
 
 
 <br>
@@ -1021,7 +1021,7 @@ Please post questions on the discussion board if you are not sure of the correct
 
 
 
-*** { @unit = "", @title = "The Seven Deadly Sins of Regression", @lecture, @foldout   }
+*** { @unit = "", @title = "The Seven Deadly Sins of Regression", @lecture, @foldout }
 
 <br>
 <br>
@@ -1042,7 +1042,7 @@ Some longer notes: Seven Sins of Regression [ [pdf](https://github.com/DS4PS/cpp
 <br><br>
 
 
-*** { @unit = "", @title = "Measurement Error", @lecture, @foldout  }
+*** { @unit = "", @title = "Measurement Error", @lecture, @foldout }
 
 <br>
 <br>
@@ -1101,7 +1101,7 @@ It is recommended you complete it before you final exam to get a sense of the ty
 
 ** FINAL EXAM
 
-*** { @unit = "FRI Feb-28", @title = "Review Session", @lecture, @foldout }
+*** { @unit = "FRI Feb-28", @title = "Review Session", @lecture }
 
 <br>
 <br>
@@ -1126,7 +1126,7 @@ You are allowed to look back over your notes and use a calculator for help with 
 
 You are NOT allowed to work together on the final exam. Do not discuss questions after you have take it. 
 
-[add button here]
+[add button here ]
 
 
 <br>
