@@ -1077,7 +1077,7 @@ Some longer notes: Seven Sins of Regression [ [pdf](https://github.com/DS4PS/cpp
 
 
 
-*** { @unit = "TUE Feb-25", @title = "Mini-Assessment", @assignment  }
+*** { @unit = "TUE Feb-25", @title = "Mini-Assessment", @assignment }
 
 <br>
 <br>
@@ -1106,7 +1106,7 @@ It is recommended you complete it before you final exam to get a sense of the ty
 <br>
 <br>
 
-There will be a review session for the final exam at 12pm on Monday. It is a chance to bring questions from the practice exams and discuss material before taking the exam.
+There will be a review session for the final exam at TBD. It is a chance to bring questions from the practice exams and discuss material before taking the exam.
 
 Please post questions on the discussion board, or email me for a Zoom call if you want help before the exam. 
 
@@ -1126,7 +1126,8 @@ You are allowed to look back over your notes and use a calculator for help with 
 
 You are NOT allowed to work together on the final exam. Do not discuss questions after you have take it. 
 
-<a class="uk-button uk-button-primary" href="">Take the Final Exam</a>
+[add button here]
+
 
 <br>
 <br>
