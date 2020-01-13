@@ -21,7 +21,7 @@ Unit Metadata is comprised of:
 @assignment - turn on lecture icon
 @lecture - turn on lecture icon
 @foldout - activate unit content (allow foldout)
-Submit Button - <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">Submit Lab</a>
+Submit Button - <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 -->
 
 
@@ -609,7 +609,7 @@ You will need the formula for confidence intervals, and the concept of visual hy
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/753697">Submit Lab-02</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
 <br>
 <br>
@@ -696,7 +696,7 @@ I have provided the code for the regression models and scatterplots. This lab fo
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/770250">Submit Lab-03</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
 <br>
 <br>
@@ -815,7 +815,7 @@ A lab solutions RMD template has been provided. Submit your knitted files via Ca
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/780103">Submit Lab-04</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
 <br>
 <br>
@@ -902,7 +902,7 @@ This lab examines tests your understanding of constructing groups and conducting
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/791918">Submit Lab-05</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
 <br>
 <br>
@@ -982,7 +982,7 @@ This lab gives you a chance to practice non-linear regression models.
 
 When you are complete:
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/assignments/808325">Submit Lab-06</a>
+<a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
 <br>
 <br>
@@ -1115,7 +1115,7 @@ Please post questions on the discussion board, or email me for a Zoom call if yo
 
 
 
-*** { @unit = "Open Feb 29 to March 02", @title = "Final Exam", @assignment, @foldout}
+*** { @unit = "Open Feb 29 to March 02", @title = "Final Exam", @assignment }
 
 <br>
 <br>
@@ -1126,7 +1126,7 @@ You are allowed to look back over your notes and use a calculator for help with 
 
 You are NOT allowed to work together on the final exam. Do not discuss questions after you have take it. 
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/232776">Take the Final Exam</a>
+<a class="uk-button uk-button-primary" href="">Take the Final Exam</a>
 
 <br>
 <br>
