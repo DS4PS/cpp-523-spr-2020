@@ -579,7 +579,7 @@ You might find this summary of notation helpful [**pdf**](https://github.com/DS4
 
 
 
-*** { @unit = "TUE Jan-21", @title = "Mini-Assessment", @assignment }
+*** { @unit = "TUE Jan-21", @title = "Mini-Assessment 01", @assignment }
 
 
 This mini-assessment consists of four multiple-choice questions. You have thirty minutes to complete from the time you start the assessment. 
@@ -658,7 +658,7 @@ None.
 
 
 
-*** { @unit = "TUE Jan-28", @title = "Mini-Assessment", @assignment }
+*** { @unit = "TUE Jan-28", @title = "Mini-Assessment 02", @assignment }
 
 <br>
 <br>
@@ -774,7 +774,7 @@ Lecure Notes: **A Taxonomy of Control Variables** [ [pdf](https://github.com/DS4
 
 
 
-*** { @unit = "TUE Feb-04", @title = "Mini-Assessment", @assignment }
+*** { @unit = "TUE Feb-04", @title = "Mini-Assessment 03", @assignment }
 
 <br>
 <br>
@@ -872,7 +872,7 @@ Once you have completed this section you will be able to run and interpret regre
 
 
 
-*** { @unit = "TUE Feb-11", @title = "Mini-Assessment", @assignment }
+*** { @unit = "TUE Feb-11", @title = "Mini-Assessment 04", @assignment }
 
 <br>
 <br>
@@ -964,7 +964,7 @@ For this lab you will run and interpret a quadratic regression, and interpret co
 
 
 
-*** { @unit = "TUE Feb-18", @title = "Mini-Assessment", @assignment  }
+*** { @unit = "TUE Feb-18", @title = "Mini-Assessment 05", @assignment  }
 
 
 
@@ -1077,12 +1077,12 @@ Some longer notes: Seven Sins of Regression [ [pdf](https://github.com/DS4PS/cpp
 
 
 
-*** { @unit = "TUE Feb-25", @title = "Mini-Assessment", @assignment }
+*** { @unit = "TUE Feb-25", @title = "Mini-Assessment 06", @assignment }
 
 <br>
 <br>
 
-## Mini Assessment-05 
+## Mini Assessment-06 
 
 This mini assessment covers material from the [Taxonomy of Controls](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/taxonomy-of-control-variables.pdf).
 
