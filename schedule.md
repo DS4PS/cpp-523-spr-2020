@@ -436,8 +436,6 @@ Navigate to the [Help! Board](https://ds4ps.github.io/cpp-523-spr-2020/help/) fo
 
 ## Course Cadence 
 
-<br>
-
 Please note the organizatin of assignments for class. 
 
 ![](https://raw.githubusercontent.com/DS4PS/cpp-523-spr-2020/master/assets/img/course-cadence.png)
