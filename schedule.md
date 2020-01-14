@@ -216,22 +216,29 @@ I will also add books, articles, tutorials and reference sheets to the [Resource
 
 
 
-** R Reference Material
+** Course Cadence
 
 
+*** { @unit = "", @title = "Course Cadence", @reading, @foldout }
 
-
-*** { @unit = "", @title = "The R Toolkit", @reading, @foldout }
-
-## Introducing R 
+## Course Cadence 
 
 <br>
+
+Please note the organizatin of assignments for class. 
+
+![](https://raw.githubusercontent.com/DS4PS/cpp-523-spr-2020/master/assets/img/course-cadence.png)
+
 <br>
 
-<iframe src="https://player.vimeo.com/video/180644880" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+Get started early on labs so you have time to ask questions on the discussion board if you get stuck. 
 
+Labs are graded pass-fail. The criteria is that you demonstrate an understanding of the topics covered, which is typically operationalized as getting over half of the questions on the assignment correct. 
 
-<br>
+The mini assessments typically consist of three multiple-choice or matching questions to guage your understanding of the previous week's lectures and lab. If you understood everything on the labs you should do fine on the mini assessments. 
+
+Labs are due Friday, mini assessments covering the previous lab are on Tuesday. 
+
 <br>
 
 
