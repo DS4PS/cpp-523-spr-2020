@@ -588,12 +588,12 @@ And submit via Canvas.
 
 <a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41574/assignments/959505">Submit Lab-01</a> 
 
+Lab 01 is due Friday. You will, however, have a full week for subsequent labs. 
+
 
 -----
 
 For future assignments we will be using R Markdown documents so that you can run models and submit the results directly. 
-
- it is due Monday. You will, however, have a full week for subsequent labs. 
 
 If you have questions, please post them to the [Assignment Discussion Board](https://ds4ps.org/cpp-523-spr-2020/help/).
 
