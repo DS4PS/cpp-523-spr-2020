@@ -574,9 +574,9 @@ Lewis-Beck, C., & Lewis-Beck, M. (2015). Applied regression: An introduction (Vo
 
 This first lab is designed as a review (or getting up to speed) assignment to direct your attention on a handful of important regression formulas we will use this semester. For the most part we will rely on the computer the do the math for us, but these formulas are important for our conceptual understanding of the regressions, so there is value in working through a simple example (five data points) by hand. 
 
-For THIS ASSIGNMENT ONLY all of the work is **done by hand** so you can type your answers right into the attached word document:
+For THIS ASSIGNMENT ONLY all of the work is **done by hand** so you can type your answers right into the Lab 01 word document:
 
-[Lab-01 Instructions](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/labs/Lab-01-Regression-Review.docx)
+<a class="uk-button uk-button-default" href="https://github.com/DS4PS/cpp-523-spr-2020/raw/master/labs/Lab-01-Regression-Review.docx">Lab-01 Instructions</a>
 
 Please show the steps for each calculation. You can check your results in R or on a calculator when you are done.
 
@@ -716,6 +716,10 @@ When you are complete:
 
 <br>
 <br>
+
+
+
+
 
 
 
