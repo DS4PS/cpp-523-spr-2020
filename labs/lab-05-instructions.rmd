@@ -161,9 +161,21 @@ This model only allows us to test three contrasts where A represents the omitted
 To test for differences between minority male and minority female salaries one of those groups must be constructed as the reference group. 
 
 
-Recall that the hypothesis test for salary differences are constructed as follows:
+Recall that the hypothesis test for salary differences are constructed as follows where $wages_i$ represents the average wage of people in group i:
 
 $NULL: wages_{white women} = wages_{white men}$ 
+
+Which is the same as:
+
+$NULL: wages_{white women} - wages_{white men} = 0$
+
+Recall that in dummy variable models the group means are captured by the dummy variable PLUS the reference group (the omitted categories). So for Model 01 above the omitted category for gender is *male*, and the omitted category for race is *white*. The reference group represents white males, and the other dummy variables are constructed relative to that group: 
+
+$wages_{white men} = a_0$
+
+$wages_{white women}  = a_0 + a_1$
+
+Substitute the group means with the corresponding model coefficients:
 
 $(a_0 + a_1) = a_0$
 
