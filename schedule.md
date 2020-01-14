@@ -429,6 +429,37 @@ Navigate to the [Help! Board](https://ds4ps.github.io/cpp-523-spr-2020/help/) fo
 
 
 
+** Course Cadence
+
+
+*** { @unit = "", @title = "Course Cadence", @reading, @foldout }
+
+## Course Cadence 
+
+Please note the organizatin of assignments for class. 
+
+![](https://raw.githubusercontent.com/DS4PS/cpp-523-spr-2020/master/assets/img/course-cadence.png)
+
+<br>
+
+Labs are due Friday, mini assessments covering the previous lab are on Tuesday. 
+
+Get started early on labs so you have time to ask questions on the discussion board if you get stuck. 
+
+Labs are graded pass-fail. The criteria is that you demonstrate an understanding of the topics covered, which is typically operationalized as getting over half of the questions on the assignment correct. 
+
+The mini assessments typically consist of three multiple-choice or matching questions to guage your understanding of the previous week's lectures and lab. If you understood everything on the labs you should do fine on the mini assessments. 
+
+<br>
+
+
+
+
+
+
+
+
+
 
 
 

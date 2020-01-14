@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(echo=T, fig.width=9, fig.height=6, warning=F, message=F )
 ```
 
-#### [CPP 523: Program Eval I](https://ds4ps.org/cpp-523-fall-2019/schedule/)
+#### CPP 523: Program Eval I
 
 <br>
 
@@ -43,7 +43,7 @@ white.female <- white * female
 minority.male <- minority * male
 minority.female <- minority * female 
 
-sum( white.male + white.female + minority.male + minority.female )
+# sum( white.male + white.female + minority.male + minority.female )
 
 # dat <- data.frame( salary, female, male, minority, white, 
 #                    white.male, white.female, minority.male, minority.female,
@@ -165,15 +165,21 @@ Recall that the hypothesis test for salary differences are constructed as follow
 
 $NULL: wages_{white women} = wages_{white men}$ 
 
+<br>
+
 Which is the same as:
 
 $NULL: wages_{white women} - wages_{white men} = 0$
+
+<br>
 
 Recall that in dummy variable models the group means are captured by the dummy variable PLUS the reference group (the omitted categories). So for Model 01 above the omitted category for gender is *male*, and the omitted category for race is *white*. The reference group represents white males, and the other dummy variables are constructed relative to that group: 
 
 $wages_{white men} = a_0$
 
 $wages_{white women}  = a_0 + a_1$
+
+<br>
 
 Substitute the group means with the corresponding model coefficients:
 
@@ -204,11 +210,18 @@ Note that you can check your answers below by calculating the group salaries in 
 
 **What is the average salary of a white male?**
 
+**Question 2-a: Show how you determine this value using coefficients from Model 01.**
+
+**Question 2-b: Show how you determine this value using coefficients from Model 02.**
 
 
 ### Question 3  
 
 **What is the average salary of a white female?**
+
+**Question 2-a: Show how you determine this value using coefficients from Model 01.**
+
+**Question 2-b: Show how you determine this value using coefficients from Model 02.**
 
 
 
@@ -216,10 +229,16 @@ Note that you can check your answers below by calculating the group salaries in 
 
 **What is the average salary of a minority female?** 
 
+**Question 2-a: Show how you determine this value using coefficients from Model 01.**
+
+**Question 2-b: Show how you determine this value using coefficients from Model 02.**
+
+
 
 ### Question 5 
 
 **The coefficient a1 is statistically significant. Which hypothesis test does that coefficient represent?**
+
 
 
 ### Question 6 
@@ -233,11 +252,53 @@ Note that you can check your answers below by calculating the group salaries in 
 
 You do not have to submit answers for these, but they are useful exercises. 
 
-**Write down a regression that would allow you to test the hypothesis whether minority male salaries are different (statistically) than minority female salaries. Which coefficient would tell you the answer?**
+<br>
+
+**Q7: Write down a regression that would allow you to test the hypothesis whether minority male salaries are different (statistically) than minority female salaries. Which coefficient would tell you the answer?**
+
+<br>
+
+
+**Q8: What happens if you run a model with no intercept? What do coefficients represent now? What hypothesis is being tested for each coefficient?**
+
+```{r, results="asis"}
+
+# regression with no intercept and all levels of gender 
+# add a -1 to suppress the intercept
+m3 <- lm( salary ~ male + female - 1  )
+           
+stargazer( m3, type="html", digits=0,
+           intercept.bottom = FALSE,
+           omit.stat = c("ser","f","rsq","adj.rsq"),
+           covariate.labels = c("c1: male", "c2: female") )
+```
+
+<br> 
+
+
+**Q9: Can you run the following model Why or why not?**
+
+```{r, results="asis", eval=F}
+
+# regression with no intercept and all categorical variables 
+m4 <- lm( salary ~ male + female + white + minority - 1  )
+
+stargazer( m4, type="html", digits=0,
+           intercept.bottom = FALSE,
+           omit.stat = c("ser","f","rsq","adj.rsq"),
+           covariate.labels = c("d1: male", 
+                                "d2: female",
+                                "d3: white",
+                                "d4: minority") )
+```
+
+
+<br>
+<br>
 
 The really hard one:
 
-**What hypothesis does a3 test? If we can calculate a minority female salary from a0 + a1 + a2, why do we even need a3?**
+**Q10: What hypothesis does a3 test? If we can calculate a minority female salary from a0 + a1 + a2, why do we even need a3?**
 
 
 
@@ -259,5 +320,32 @@ Remember to name your files according to the convention: **Lab-##-LastName.xxx**
 <br>
 <br>
 
+
+
+<style>
+.footer {
+  background-color:#726e6e;
+  height:200px;
+  color:white;
+  padding: 20px 3px 20px 3px;
+  position: absolute; 
+  min-width:100%;
+  max-width:100%;
+  margin:0px;
+  width:100%;
+}
+</style>
+
+<div class="footer">
+<div class="row"  align="center">
+
+  <br>
+
+  Designed by <a href=https://github.com/lecy target="_blank">Jesse Lecy</a><br>
+  Part of <a href=http://ds4ps.org/ms-prog-eval-data-analytics/ target="_blank">Eval & Analytics</a><br>
+  Page powered by <a href=http://jekyllrb.com target="_blank">Jekyll</a>
+  
+</div>
+</div>
 
 
