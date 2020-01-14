@@ -351,15 +351,9 @@ R is a data programming language developed for statistics.
 
 We will be using R for lectures and labs in this course. If you are only taking the program evaluation course, **you only need a rudimentary understanding of R**. The code you need to run regressions and create tables will be provided to you. All of the datasets we will use for lectures and labs are pre-packaged, so you don't have to know how to build datasets in R. 
 
-You will see, however, that I provide a lot of code in lecture notes. This is primarily for the students also taking the Intro to Data Science class (CPP 526) or enrolled in the masters program in data analytics. The more code you see, the more familiar it will become. It also let's you steal it and incorporate it into your own projects. **It is presented as a resource, not because you are expected to be able to make sense of all of it or use it in labs!**
+You will see, however, that I provide a lot of code in lecture notes. This is primarily for the students also taking the Intro to Data Science class (CPP 526) or enrolled in the masters program in data analytics. The more code you see, the more familiar it will become. It also let's you build off of existing code and incorporate it into your own projects. It is presented as a resource, **not because you are expected to be able to make sense of it all of it or use it in labs,** rather because the courses are designed to be immersive. 
 
-## References
-
-[Data Science Ecosystem Powerpoint](https://github.com/DS4PS/dp4ss-textbook/raw/master/resources/Couse-Overview.pdf)
-
-And the dashboard example in R can be found here:
-
-[R Storyboard Example](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-showcase-storyboard/htmlwidgets-showcase-storyboard.html)
+Instead of isolating lectures and labs in a university learning platform, this content is presented in the formats and environments you will might encounter in professional analyst role. 
 
 <br>
 <br>
