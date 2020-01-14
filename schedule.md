@@ -355,7 +355,7 @@ You will see, however, that I provide a lot of code in lecture notes. This is pr
 
 ## References
 
-[Course Overview Powerpoint](https://github.com/DS4PS/dp4ss-textbook/raw/master/resources/Couse-Overview.pdf)
+[Data Science Ecosystem Powerpoint](https://github.com/DS4PS/dp4ss-textbook/raw/master/resources/Couse-Overview.pdf)
 
 And the dashboard example in R can be found here:
 
