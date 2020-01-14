@@ -213,18 +213,125 @@ I will also add books, articles, tutorials and reference sheets to the [Resource
 
 
 
+
+
+
+** R Reference Material
+
+
+
+
+*** { @unit = "", @title = "The R Toolkit", @reading, @foldout }
+
+## Introducing R 
+
+<br>
+<br>
+
+<iframe src="https://player.vimeo.com/video/180644880" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+<br>
+<br>
+
+
+## The R Toolkit
+
+
+In this course we cover the foundations of data programming with the R language. In order to create robust and dynamic analysis we need to use a couple of tools that were built to leverage the power of R and create compelling narratives. R Studio helps you manage projects by organizing files, scripts, packages and output. Markdown is a simple formatting convention that allows you to create publication-quality documents. And R Markdown is a specific version of Markdown that allows you to combine text and code to create data-driven documents. 
+
+[CH-01 Core R](http://ds4ps.org/dp4ss-textbook/ch-010-core-r.html)
+
+[CH-02 R Studio](http://ds4ps.org/dp4ss-textbook/ch-020-rstudio.html)
+
+[Data-Driven Docs](http://ds4ps.org/dp4ss-textbook/ch-030-data-driven-docs.html)
+
+[A Markdown Guide](http://ds4ps.org/dp4ss-textbook/ch-031-markdown.html)
+
+<br>
+
+![](https://github.com/DS4PS/dp4ss-textbook/blob/master/figures/r-tools-overview.png?raw=true)
+
+<br>
+<br>
+
+## Installing R
+
+You will need to install R (the open-source analytics platform used in this course) and R Studio (the graphical user interface for R). 
+
+* [Install R](https://cran.rstudio.com/)  
+* [Install R Studio Desktop](https://www.rstudio.com/products/rstudio/download/) 
+
+<br>
+<br>
+
+
+## R Markdown
+
+[Getting Started with R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
+
+You will have plenty of practice with these tools this semester. You will submit your labs as knitted R Markdown (RMD) files.
+
+[![](https://github.com/DS4PS/ds4ps.github.io/blob/master/gifs/NewCodeChunk/NewCodeChunk_media/NewCodeChunk.gif?raw=true)](../gifs/NewCodeChunk/NewCodeChunk.html)
+
+
+<br>
+<br>
+
+
+
+
+
+
+*** { @unit = "", @title = "Tour of R Studio", @lecture, @foldout }
+
+<br>
+
+## Getting to Know RStudio
+
+RStudio is a graphical user interface (GUI) and integrated developer environment (IDE) that makes it much easier to use R for writing code, importing and exporting data, installing extensions, and many other features.
+
+<br>
+
+#### [R Studio Walk-Through](https://www.youtube.com/watch?v=Qc7BNlozOcE)
+ 
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/Qc7BNlozOcE?controls=0&amp;start=35" 
+frameborder="0" allow="accelerometer; 
+autoplay; encrypted-media; gyroscope; 
+picture-in-picture" allowfullscreen></iframe>
+ 
+ 
+<br>
+
+Use the bookmarks in the video description on YouTube to skip ahead to different parts of the tutorial. 
+
+**Content:**
+* Opening a New Script: 00:31
+* Saving Scripts: 01:35
+* Sessions & Setting Working Directories: 04:13
+* The Source/Script Pane: 06:15
+* The Console Pane: 09:12 
+* The Environment, History, & Connections Panes: 12:04 
+* Importing Data: 12:26 
+* Objects & the Environment Pane: 14:26 
+* The Files, Plots, Packages, Help Panes: 16:16 
+* The Help Pane: 18:04 
+* Keyboard Shortcuts: 23:48 
+* The RStudio Cheatsheet: 29:07 
+* Customizing Your Interface: 30:20 
+
+
+<br>
+<br>
+
+
+
+
+
 *** { @unit = "", @title = "ORIENTATION to R", @lecture, @foldout   }
 
-
-## The R Language
-
-R is a data programming language developed for statistics. 
-
-We will be using R for lectures and labs in this course. If you are only taking the program evaluation course, **you only need a rudimentary understanding of R**. The code you need to run regressions and create tables will be provided to you. All of the datasets we will use for lectures and labs are pre-packaged, so you don't have to know how to build datasets in R. 
-
-You will see, however, that I provide a lot of code in lecture notes. This is primarily for the students also taking the Intro to Data Science class (CPP 526) or enrolled in the masters program in data analytics. The more code you see, the more familiar it will become. It also let's you steal it and incorporate it into your own projects. **It is presented as a resource, not because you are expected to be able to make sense of all of it or use it in labs!**
-
-
+<br> 
 
 ## The Data Science Ecosystem
 
@@ -236,25 +343,27 @@ You can think of R, R Studio, and Markdown kindof like Excel (analysis), Word (r
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oC1xz97aoYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<br> 
+
+## The R Language
+
+R is a data programming language developed for statistics. 
+
+We will be using R for lectures and labs in this course. If you are only taking the program evaluation course, **you only need a rudimentary understanding of R**. The code you need to run regressions and create tables will be provided to you. All of the datasets we will use for lectures and labs are pre-packaged, so you don't have to know how to build datasets in R. 
+
+You will see, however, that I provide a lot of code in lecture notes. This is primarily for the students also taking the Intro to Data Science class (CPP 526) or enrolled in the masters program in data analytics. The more code you see, the more familiar it will become. It also let's you steal it and incorporate it into your own projects. **It is presented as a resource, not because you are expected to be able to make sense of all of it or use it in labs!**
 
 ## References
 
-[Course Overview Powerpoint for Zoom Call](https://github.com/DS4PS/dp4ss-textbook/raw/master/resources/Couse-Overview.pdf)
-
-The course shells for CPP 523 and CPP 526 are located at:
-
-[https://ds4ps.org/cpp-526-spr-2020/](https://ds4ps.org/cpp-526-spr-2020/)  
-[https://ds4ps.org/cpp-523-spr-2020/](https://ds4ps.org/cpp-523-spr-2020/)  
-
-The *unofficial* program website can be found at:
-
-[https://ds4ps.org/ms-prog-eval-data-analytics/](https://ds4ps.org/ms-prog-eval-data-analytics/)
+[Course Overview Powerpoint](https://github.com/DS4PS/dp4ss-textbook/raw/master/resources/Couse-Overview.pdf)
 
 And the dashboard example in R can be found here:
 
 [R Storyboard Example](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-showcase-storyboard/htmlwidgets-showcase-storyboard.html)
 
 <br>
+<br>
+
 
 
 
@@ -262,7 +371,7 @@ And the dashboard example in R can be found here:
 *** { @unit = "", @title = "Getting Help", @assignment, @foldout }
 
 
-## Getting Help
+## Getting Help in this Class
 
 Nerds are stereotypically perceived as being anti-social, but in reality data analytics is a very social activity and real-world analytics projects are almost always collaborative. 
 
