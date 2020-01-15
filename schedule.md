@@ -450,6 +450,8 @@ Labs are graded pass-fail. The criteria is that you demonstrate an understanding
 
 The mini assessments typically consist of three multiple-choice or matching questions to guage your understanding of the previous week's lectures and lab. If you understood everything on the labs you should do fine on the mini assessments. 
 
+**Mini-assessments open on Saturday and close Tuesday at 11:59pm (AZ time).** You have 30 minutes to complete an assessment once they start. You can take it at any time Sat-Tues.
+
 <br>
 
 
