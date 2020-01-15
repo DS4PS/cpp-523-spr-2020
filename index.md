@@ -25,7 +25,7 @@ info:
 instructor:
 -  name: Irene Tsapara, PhD
    title: Professor
-   email: jdlecy@asu.edu
+   email: itsapara@asu.edu
    office_location: virtual
    website_url: 
    github_url: 'https://github.com/itsapara' 
