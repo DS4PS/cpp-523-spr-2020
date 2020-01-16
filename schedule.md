@@ -684,9 +684,9 @@ If we would repeatedly draw samples from a population and calculate slope estima
 
 <br>
 
-If we create confidence intervals around these guesses, we can see that 95 out of 100 of the CIs will contain the true slope (set to 3 here). 
+If we create 95% confidence intervals around these guesses, we can see that approximately 95 out of 100 of the CIs will contain the true slope (set to 3 here). 
 
-![](https://github.com/lecy/regression-simulations/raw/master/GIFS/confidence%20intervals%202.gif)
+![](https://raw.githubusercontent.com/lecy/regression-simulations/master/GIFS/confidence-interval-of-slope.gif)
 
 <br>
 <br>
