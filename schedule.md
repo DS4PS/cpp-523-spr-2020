@@ -679,7 +679,7 @@ Our model estimate for the slope is our best guess of the real statistic. It wil
 
 If we would repeatedly draw samples from a population and calculate slope estimates over and over, they would look like the distribution on the right. The "standard error" describes the average amount all of these guesses (statistics) are off from the true slope. 
 
-![](https://github.com/lecy/regression-simulations/blob/master/GIFS/samp-dist-of-slope.gif?raw=true)
+![](https://github.com/lecy/regression-simulations/blob/master/GIFS/samp-dist-of-slope.gif-50?raw=true)
 
 
 <br>
