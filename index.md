@@ -34,7 +34,7 @@ instructor:
    linked_in_url: 'https://www.linkedin.com/in/irene-tsapara-8a1a04b5/'
    office_hours_time: By appointment
    office_hours_location:  Zoom
-   office_hours_app_url:  ''
+   office_hours_app_url:  'https://calendly.com/irene-tsapara/15min'
    
 
 textbooks:
