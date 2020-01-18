@@ -715,13 +715,21 @@ You might find this summary of notation helpful [**pdf**](https://github.com/DS4
 
 
 
-*** { @unit = "TUE Jan-21", @title = "Mini-Assessment 01", @assignment }
+*** { @unit = "TUE Jan-21", @title = "Mini-Assessment 01", @assignment, @foldout }
 
+<br> 
 
-This mini-assessment consists of four multiple-choice questions. You have thirty minutes to complete from the time you start the assessment. 
+## Mini-Assessment 01
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/219204">Start the Mini-Assessment</a>
+This mini-assessment consists of three multiple-choice questions. You have thirty minutes to complete from the time you start the assessment. 
 
+The assessment covers the definition of a regression line, and the concept of sums of squares from the first chapter:
+
+[Building a regression model](https://ds4ps.org/cpp-523-spr-2020/lectures/caffeine.html)
+
+<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41574/quizzes/291355">Start the Mini-Assessment</a>
+
+<br>
 
 
 
