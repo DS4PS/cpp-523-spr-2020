@@ -7,7 +7,9 @@ output:
     toc: true
     self_contained: false
     number_sections: false
-    css: textbook.css
+    css: labs.css
+    includes:
+      after_body: footer.html
 ---
 
 ```{r setup, include=FALSE}
@@ -233,6 +235,9 @@ And while small schools did bump up graduation rates, in some neighborhoods the 
 # see file generate-class-size-data.rmd
 URL <- "https://raw.githubusercontent.com/DS4PS/cpp-523-fall-2019/master/labs/class-size-seed-1234.csv"
 dat <- read.csv( URL )
+
+test <- dat$test
+csize <- dat$csize
 ```
 
 
@@ -299,11 +304,11 @@ $TestScore = B_0 + B_1 \cdot ClassSize + B_2 \cdot TeacherQuality + B_3 \cdot SE
 ```{r, results='asis', echo=F}
 library( stargazer )
 
-m1 <- lm( test ~ csize  ) 
-m2 <- lm( test ~ csize + tqual )
-m3 <- lm( test ~ tqual + ses ) 
-m4 <- lm( test ~ csize + ses  )
-m5 <- lm( test ~ csize + tqual + ses  )
+m1 <- lm( test ~ csize, data=dat  ) 
+m2 <- lm( test ~ csize + tqual, data=dat )
+m3 <- lm( test ~ tqual + ses, data=dat ) 
+m4 <- lm( test ~ csize + ses, data=dat  )
+m5 <- lm( test ~ csize + tqual + ses, data=dat  )
 
 
 stargazer( m1, m2, m3, m4, m5, 
@@ -344,6 +349,14 @@ For the following cases, use the value t=1.96 for the 95% confidence interval ca
 
 ---
 
+
+**RMD Template:**
+
+To help you get started I have provided an R Markdown file that has the data load steps and document set-up. 
+
+[ ![](figures/download.png) ](https://www.dropbox.com/s/2ins31g7coxw6ey/lab-02-TEMPLATE.rmd?dl=1)
+
+--- 
 
 R code for coefficient plots to adapt if desired:
 
