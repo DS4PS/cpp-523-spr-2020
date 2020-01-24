@@ -806,7 +806,7 @@ None.
 
 
 
-*** { @unit = "TUE Jan-28", @title = "Mini-Assessment 02", @assignment }
+*** { @unit = "TUE Jan-28", @title = "Mini-Assessment 02", @assignment, @foldout }
 
 <br>
 <br>
@@ -816,7 +816,7 @@ This mini-assessment tests your understanding of the interpretation of [statisti
 
 ![](assets/img/ci-and-significance.png)
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/220511">Start the Mini-Assessment</a>
+<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41574/quizzes/291353">Start the Mini-Assessment</a>
 
 <br>
 <br>
@@ -922,20 +922,24 @@ Lecure Notes: **A Taxonomy of Control Variables** [ [pdf](https://github.com/DS4
 
 
 
-*** { @unit = "TUE Feb-04", @title = "Mini-Assessment 03", @assignment }
+*** { @unit = "TUE Feb-04", @title = "Mini-Assessment 03", @assignment, @foldout }
 
 <br>
 <br>
 
-This mini-assessment tests your understanding of the differences between the two types of control variables.
+This mini-assessment tests your understanding of the differences between the two types of control variables (those correlated with the policy or intervention, i.e. classroom size and socio-economic status, and those that are uncorrelated with the policy but correlated with the outcome, i.e. teacher quality).
 
 ![](assets/img/two-types-of-controls.png)
 
 [Control Variables](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/p-06-control-variables.pdf)
 
+These differences are summarized on some of the review notes for the final exam: 
+
+[Taxonomy of Control Variables](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/taxonomy-of-control-variables.pdf) 
+
 <br>
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/222622">Start the Mini-Assessment</a>
+<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41574/quizzes/291357">Start the Mini-Assessment</a>
 
 
 <br>
@@ -1020,14 +1024,31 @@ Once you have completed this section you will be able to run and interpret regre
 
 
 
-*** { @unit = "TUE Feb-11", @title = "Mini-Assessment 04", @assignment }
+*** { @unit = "TUE Feb-11", @title = "Mini-Assessment 04", @assignment, @foldout }
 
 <br>
 <br>
 
 This mini-assessment tests your understanding of the interpretation of the impact of control variables on statistical significance.
 
-<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/29527/quizzes/225183">Start the Mini-Assessment</a>
+Note that the lecture on control variables covers cases where we add variables to a model:
+
+```
+Y = b0 + b1 X1 + e  # add controls
+>>>
+Y = b0 + b1(X1) + b2(X2) + b3(X3) + e
+```
+And the lecture on omitted variable bias is the **exact same concepts**, but now in reverse: 
+
+```
+Y = b0 + b1(X1) + b2(X2) + b3(X3) + e  # full model
+>>>
+Y = b0 + b1 X1 + e  # omit variables
+```
+We are interested in how these operations impact (1) **the slope** of our policy variable and (2) **the standard errors** (i.e. confidence intervals) of our policy variable. Statistical significance is determined by the combination of slope and SE. 
+
+
+<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41574/quizzes/291350">Start the Mini-Assessment</a>
 
 <br>
 <br>
