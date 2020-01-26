@@ -408,7 +408,17 @@ It is common to compare regression models with different specification (includin
 ![](figures/reading-a-regression-table.png)
 ![](figures/reading-a-regression-table2.png)
 
+**Correlation Plots**
 
+Next week you will learn about the mechanics of control variables, and how they impact our estimate of program impact. We will begin to use information about correlations between variables in the model. We get information about the correlation structure through a correlation table, or in a more visually-appealing format with a **pairs plot** in R. 
+
+![](figures/reading-pairs-plot.png)
+
+We can use information from a correlation table to create a Ballentine Venn diagram, which will be a useful tool for developing intuition about how adding a specific control variable will impact a model. Pairs plots and Ballentine Venn diagrams are both ways of representing correlations and shared variance. 
+
+![](figures/pairs-to-ballentine.png)
+
+<br>
 
 
 # Submission Instructions

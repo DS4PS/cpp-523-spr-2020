@@ -103,7 +103,7 @@ stargazer( m1, m2, m3, m4, m5,
 What is the standard error associated with the slope on class size in Model 1?
 
 
-**Answer: The standard error of $b_1$ in Model-01 is 0.18**.
+**Answer**: 
 
 
 
@@ -125,8 +125,8 @@ Calculate the 95% confidence interval around the class size coefficient in Model
 
 ```{r}
 # add appropriate values for b1 and se from the regression table
-b1 <- 
-se <- 
+b1 <- -3
+se <- 0.25
 
 # no need to change anything below
   
@@ -162,8 +162,12 @@ Calculate the 95% confidence interval around the class size coefficient in Model
 **Visual**
 
 ```{r}
-b1 <- 
-se <- 
+# replace value with correct b1 and SE for the question
+b1 <- -3
+se <- 0.25
+
+# do not change code below 
+
 upper.ci <- b1 + 1.96*se 
 lower.ci <- b1 - 1.96*se
 plot( c(lower.ci,upper.ci), c(1,1), 
@@ -196,8 +200,13 @@ Calculate the 95% confidence interval around the class size coefficient in Model
 **Visual**
 
 ```{r}
-b1 <- 
-se <- 
+# replace value with correct b1 and SE for the question
+b1 <- -3
+se <- 0.25
+
+# do not change code below 
+
+
 upper.ci <- b1 + 1.96*se 
 lower.ci <- b1 - 1.96*se
 plot( c(lower.ci,upper.ci), c(1,1), 
@@ -221,11 +230,18 @@ axis( side=1, at=0, labels="B1=0" )
 
 ### Q (5)	
 
-Draw the three confidence intervals to see how they change (you can do this in any drawing tool, with R, in MS Word or PowerPoint, or by hand).
+Draw the three confidence intervals to see how they change as a result of the controls included in the model. 
+
+**Which model has the "largest" slope?** Note that the slope represents program impact, in this case how much test scores improve for as you reduce average class size by a student. So largest slope, or program effect size, is in absolute terms. A slope of -5, for example, means that test scores improve by 5 points when average class size falls by one student in a state. A slope of -3 means that test scores only improve by 3 points for the one-student reduction in class size. A slope of -3 is *larger* than -5 in mathematical terms, but when asked about slope size or program effects you should ignore the sign and compare absolute values. The intervention is about **reducing** class size, so we want a "large" negative slope in this context.
+
+**Which model has the smallest standard error?** How can you tell? 
+
+You can reference the above graphics or re-create them here.
+
 
 **Answer**
 
-You can reference the above graphics or re-create them here. 
+ 
 
 
 

@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -99,7 +100,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
       if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
       var style = rule.style.cssText;
       // check if color or background-color is set
-      if (rule.style.color === '' || rule.style.backgroundColor === '') continue;
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
       // replace div.sourceCode by a pre.sourceCode rule
       sheets[i].deleteRule(j);
       sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
@@ -143,9 +144,7 @@ h6 {
 
 <link rel="stylesheet" href="labs.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -159,7 +158,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -176,8 +174,6 @@ summary {
 </style>
 
 
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -235,20 +231,17 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -786,6 +779,12 @@ Standard errors in parentheses
 <h1>Note on Reading Regression Tables</h1>
 <p>It is common to compare regression models with different specification (including or excluding variables) to ensure we have the best fit. To present multiple models compactly we display each model as a column in the table. You can read them as follows:</p>
 <p><img src="figures/reading-a-regression-table.png" /> <img src="figures/reading-a-regression-table2.png" /></p>
+<p><strong>Correlation Plots</strong></p>
+<p>Next week you will learn about the mechanics of control variables, and how they impact our estimate of program impact. We will begin to use information about correlations between variables in the model. We get information about the correlation structure through a correlation table, or in a more visually-appealing format with a <strong>pairs plot</strong> in R.</p>
+<p><img src="figures/reading-pairs-plot.png" /></p>
+<p>We can use information from a correlation table to create a Ballentine Venn diagram, which will be a useful tool for developing intuition about how adding a specific control variable will impact a model. Pairs plots and Ballentine Venn diagrams are both ways of representing correlations and shared variance.</p>
+<p><img src="figures/pairs-to-ballentine.png" /></p>
+<p><br></p>
 </div>
 <div id="submission-instructions" class="section level1">
 <h1>Submission Instructions</h1>
@@ -806,6 +805,10 @@ Standard errors in parentheses
   CPP 523 <a href="https://ds4ps.org/cpp-523-spr-2020/" target="_blank">Foundations of Prog Eval I</a><br>
   Part of the <a href=http://ds4ps.org/ms-prog-eval-data-analytics/ target="_blank">MS in Evaluation and Analytics</a><br>
   @ <a href=https://asuonline.asu.edu/online-degree-programs/graduate/program-evaluation-and-data-analytics-ms/ target="_blank">Arizona State University</a><br>
+  <br>
+  Copyright &copy; 2020
+  <p style="font-size:70%;">Solutions may <b>NOT</> be posted online <br>
+  without violating ASU policies and copyright laws.</p>
 
 <br>
 <br>
@@ -831,6 +834,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
