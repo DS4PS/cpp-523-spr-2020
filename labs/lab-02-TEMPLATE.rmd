@@ -7,6 +7,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+# do not change this chunk
 knitr::opts_chunk$set(echo=F, fig.width=6, fig.height=4, warning=F, message=F )
 ```
 
@@ -22,19 +23,19 @@ In this assignment you will be working with simulated data on class size and tes
 
 
 ```{r}
+# do not change this chunk
+
+# load data
 URL <- "https://raw.githubusercontent.com/DS4PS/cpp-523-fall-2019/master/labs/class-size-seed-1234.csv"
 dat <- read.csv( URL )
-```
 
-
-
-```{r, fig.width=10, fig.height=10, echo=F, eval=T}
-# load custom functions for pairs plot
+# load draw_ci function
 source( "https://raw.githubusercontent.com/DS4PS/sourcer-r/master/sourcer.R" )
-
-pairs( dat[c("test","csize","tqual","ses")], 
-       lower.panel=panel.smooth, upper.panel=panel.cor )
 ```
+
+
+
+
 
 
 
@@ -57,6 +58,7 @@ $TestScore = B_0 + B_1 \cdot ClassSize + B_2 \cdot TeacherQuality + B_3 \cdot SE
 
 
 ```{r, results='asis', echo=F}
+# do not change this code 
 
 library( stargazer )
 
@@ -128,22 +130,25 @@ Calculate the 95% confidence interval around the class size coefficient in Model
 b1 <- -3
 se <- 0.25
 
-# no need to change anything below
-  
-upper.ci <- b1 + 1.96*se 
-lower.ci <- b1 - 1.96*se
+draw_ci( b1, se, plot.title="Model 1" )
 
-plot( c(lower.ci,upper.ci), c(1,1), 
-      xlim=c(lower.ci-0.5,1), ylim=c(0,3),
-      xlab="", ylab="", axes=F, bty="n",
-      type="l", lwd=3, col="darkorange", 
-      main="Model 1" )
-points( b1, 1, col="darkorange", pch=19, cex=3 )
-text( b1, 1, b1, pos=3, col="gray30", cex=1.5, offset=1 )
-text( c(lower.ci,upper.ci), 1, round(c(lower.ci,upper.ci),2), 
-      pos=c(2,4), cex=0.8, col="gray40")
-abline( v=0, lty=2, lwd=2, col="gray40" )
-axis( side=1, at=0, labels="B1=0" )
+# for reference
+# here is the code for the draw_ci function:
+#   
+# upper.ci <- b1 + 1.96*se 
+# lower.ci <- b1 - 1.96*se
+# 
+# plot( c(lower.ci,upper.ci), c(1,1), 
+#       xlim=c(lower.ci-0.5,1), ylim=c(0,3),
+#       xlab="", ylab="", axes=F, bty="n",
+#       type="l", lwd=3, col="darkorange", 
+#       main="Model 1" )
+# points( b1, 1, col="darkorange", pch=19, cex=3 )
+# text( b1, 1, b1, pos=3, col="gray30", cex=1.5, offset=1 )
+# text( c(lower.ci,upper.ci), 1, round(c(lower.ci,upper.ci),2), 
+#       pos=c(2,4), cex=0.8, col="gray40")
+# abline( v=0, lty=2, lwd=2, col="gray40" )
+# axis( side=1, at=0, labels="B1=0" )
 ```
 
 
@@ -260,7 +265,13 @@ The covariance of class size and test scores is `r round(cov(dat$csize,dat$test)
 
 
 
+Pairs plot for reference for Q6.
 
+```{r, fig.width=10, fig.height=10, echo=F, eval=T}
+# do not change this code
+pairs( dat[c("test","csize","tqual","ses")], 
+       lower.panel=panel.smooth, upper.panel=panel.cor )
+```
 
 
 
