@@ -48,9 +48,12 @@ textbooks:
   edition: 2011
   link: https://siteresources.worldbank.org/EXTHDOFFICE/Resources/5485726-1295455628620/Impact_Evaluation_in_Practice.pdf
   required: Free online
- 
+- title: 'Real Stats: Using Econometrics for Political Science and Public Policy'
+  authors: 'Bailey, M. A.'
+  edition: 2016
+  link: 'https://www.amazon.com/Real-Stats-Econometrics-Political-Science/dp/0199981949'
+  required: Recommended Reference
 --- 
-
 
 
 
