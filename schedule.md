@@ -1255,11 +1255,35 @@ Some longer notes: Seven Sins of Regression [ [pdf](https://github.com/DS4PS/cpp
 
 This mini assessment covers material from the [Taxonomy of Controls](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/taxonomy-of-control-variables.pdf).
 
-And on [Measurement Error](https://ds4ps.org/cpp-523-spr-2020/schedule/) (look under Week 7, Measurement Error tab). 
+And on Measurement Error. See the animated simulations below for examples of the effects of measurement error in the DV versus IVs. And see questions 3 and 4 on the review sheet for the same examples explained as Venn diagrams. 
+
+[Review Questions](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Review%20Material%20for%20the%20Final%20Exam%20-%20SOLUTIONS.pdf)  
 
 This mini assessment should give you an idea of the types of questions you might expect on the final exam. 
 
 <a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41574/quizzes/291349">Mini Assessment 05</a>
+
+# The impact of measurement error
+
+## Measurement Error in the DV
+
+![](assets/img/measurement-error-in-dv-large.gif) 
+
+
+*Increase in standard errors. No slope bias.* 
+
+<br>
+
+## Measurement Error in the IV
+
+![](https://github.com/lecy/regression-simulations/raw/master/GIFS/measurement%20error%20iv.gif) 
+
+<br>
+
+![](https://github.com/lecy/regression-simulations/raw/master/GIFS/measurement%20error%20iv%202.gif) 
+
+*Attenuation of the slope (tilts toward zero), but also a decrease in standard errors that offset the shift of the slope toward zero.*
+
 
 <br>
 <br>
