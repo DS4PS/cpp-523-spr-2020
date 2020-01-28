@@ -786,8 +786,32 @@ Once you have completed this section you will be able to explain how adding spec
 
 ### Required:
 
-None. 
+"Bivariate regression" means 2 variables:  
 
+```
+Y = b0 + b1•X + e
+```
+
+"Multiple regression" or "Multivariate regression" means one DV and multiple independent variables: 
+
+```
+Y = b0 + b1•X1 + b2•X2 + e
+```
+
+In the lecture notes X1 will always be the **policy variable**, or intervention of interest. The additional variables X2, X3, X4, etc. are all "control variables" that are meant to improve models. 
+
+Skim: [Multiple Regression](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/Multiple%20Regression.pdf)
+
+
+### Recommended: 
+
+Baily CH5: Section 5.1-Multivariate OLS
+
+Bailey, M. A. (2016). Real Stats: Using Econometrics for Political Science and Public Policy. Oxford University Press.
+
+
+<br>
+<br>
 
 
 
@@ -799,6 +823,15 @@ None.
 ## Lecture Materials
 
 [Lecture 06 on Control Variables](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/p-06-control-variables.pdf)
+
+<br>
+<br>
+
+Nice explanation of the importance of control variables as competing hypotheses:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pcObydOsMXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Multiple Regression](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/pubs/Multiple%20Regression.pdf)
 
 <br>
 <br>
