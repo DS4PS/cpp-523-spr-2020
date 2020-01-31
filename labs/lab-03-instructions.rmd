@@ -5,9 +5,12 @@ output:
     theme: readable
     highlight: tango
     toc: true
+    toc_depth: 2
     self_contained: false
     number_sections: false
-    css: textbook.css
+    css: labs.css
+    includes:
+      after_body: footer.html
 ---
 
 
@@ -17,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE, message=F, warning=F, fig.align='center', fig
 
 
 
-#### [CPP 523: Program Eval I](https://ds4ps.org/cpp-523-fall-2019/schedule/)
+### CPP 523: Program Eval I
 
 <br>
 
@@ -27,7 +30,7 @@ You will examine the unconditioned relationship between Class Size and Test Scor
 
 You will submit your solutions as an RMD document (specifically the HTML file created from the document). You can create a new RMarkdown file, or download the **LAB-03 RMD template**: 
 
-[![](figures/download.png)](https://www.dropbox.com/s/v806nq50dq13a2z/lab-03-template.rmd?dl=1)
+[![](figures/download.png)](https://www.dropbox.com/s/l02e8uxvn2tide4/lab-03-TEMPLATE.rmd?dl=1)
 
 <br>
 
@@ -126,15 +129,15 @@ stargazer( m1, m2, m3, m4, m5,
            notes.label = "Standard errors in parentheses")
 ```
 
-## Lab Questions
+# Lab Questions
 
 
 **Warmup**: Draw a Ballantine Venn Diagram of Class Size, SES, Teacher Quality and Test Score. You do not have to submit your drawing, but it will be useful for answering questions below.
 
 
-### **PART I**:
+## **PART I**:
 
-#### Question 1.
+### Question 1.
 
 Create a scatterplot between Class Size (x-axis) and Test Score (y-axis). This will serve as a visual representation of our baseline model of the relationship between Class Size and Test Score.
 
@@ -154,7 +157,7 @@ abline( lm(test~csize,data=dat), col="firebrick", lwd=2 )
 ```
 
 
-#### Question 2.
+### Question 2.
 
 Regress Test Score on Teacher Quality while saving the residuals.  Now create a scatterplot of Class Size and the residuals of Test Score.  What happened to the strength of the relationship?  Why?
 
@@ -167,7 +170,7 @@ plot( dat$csize, e1.test.score )
 ```
 
 
-#### Question 3. 
+### Question 3. 
 
 Regress Test Score on SES and save the residuals.  Create a scatterplot of Class Size and the residuals of Test Score.  What happened to the strength of the relationship?  Why?
 
@@ -180,7 +183,7 @@ plot( dat$csize, e2.test.score )
 ```
 
 
-#### Question 4.
+### Question 4.
 
 These graphs demonstrate the effects of adding the control variables **Teacher Quality** and **SES** to the baseline model of the relationship between **Class Size** and **Test Score**. Conceptually, the control variable will improve a model to remove variance to make the estimate either more precise (smaller standard errors) or less bias (adjust the slope of the policy variable).  
 
@@ -198,19 +201,19 @@ Which control variable is removing the EXPLAINED portion of the variance of test
 
 
 
-### **PART II**:
+## **PART II**:
 
 Use the following regression table and graphs to answer the question. 
 
 
-#### Question 5-1  
+### Question 5-1  
 
 Based upon the correlation structure reported below, which control variable do you expect would change the slope of caffeine if removed from the model? 
 
 Explain your reasoning. 
 
 
-#### Question 5-1  
+### Question 5-1  
 
 Which would result in a larger standard error associated with caffeine if removed from the model?
 
@@ -327,7 +330,34 @@ Remember to:
 * name your files according to the convention: **Lab-##-LastName.Rmd**
 * show your solution, include your code.
 * do not print excessive output (like a full data set).
+* follow appropriate style guidelines (spaces between arguments, etc.).
+
+See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for examples.
+
+
+---
+
+<br>
+
+## Markdown Trouble?
+
+If you are having problems with your RMD file, visit the [**RMD File Styles and Knitting Tips**](https://ds4ps.org/cpp-526-fall-2019/labs/r-markdown-files.html) manual.
+
+
+#### Notes on Knitting
+
+Note that when you knit a file, it starts from a blank slate. You might have packages loaded or datasets active on your local machine, so you can run code chunks fine. But when you knit you might get errors that functions cannot be located or datasets don't exist. Be sure that you have included chunks to load these in your RMD file.
+
+Your RMD file will not knit if you have errors in your code. If you get stuck on a question, just add `eval=F` to the code chunk and it will be ignored when you knit your file. That way I can give you credit for attempting the question and provide guidance on fixing the problem.
+
 
 <br>
 <br>
+
+---------
+
+<br>
+<br>
+
+
 
