@@ -1,18 +1,17 @@
 ---
 layout: default
-title: Resources
+title: Review Sessions
 ---
 
 
-# Review Sessions
 
 ## Week 3
 
-**TOPICS**
+**TOPICS DISCUSSED:**
 
 * Lab 3 solutions 
 
-**RESOURCES**
+**RESOURCES:**
 
 * [Zoom Session](https://asu.zoom.us/rec/play/uZIpJO35-Dk3H4bE4QSDBaVxW9TvfK2sh3AY_fMJzkq3BXcFYFSkYuYTaus6McT8jmrHdvKuG9t7ct3h)
 
