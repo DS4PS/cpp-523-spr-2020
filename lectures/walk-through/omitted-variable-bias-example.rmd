@@ -33,18 +33,7 @@ source( "https://raw.githubusercontent.com/DS4PS/sourcer-r/master/sourcer.R" )
 
 
 
-
-
-
-Consider the effect of omitting SES from the model: 
-
-EQUATION | MODEL  
----------|--------------------------
-| $TestScore = B_0 + B_1 \cdot ClassSize + B_2 \cdot SES + e_1$ | $(Full \ Model)$ |
-| $TestScore = b_0 + b_1 \cdot ClassSize + e_2$  |   $(Naive \ Model)$ |
-| $SES = a_0 + a_1 \cdot ClassSize + e_3$  |  $(Auxiliary \  Regression)$ | 
-
-
+## Class Size Data From Lab 02
 
 <br>
 
@@ -88,6 +77,18 @@ stargazer( m1, m2, m3, m4, m5,
 
 
 ## Tables and Math
+
+
+
+Consider the effect of omitting SES from the full model of CS + SES: 
+
+EQUATION | MODEL  
+---------|--------------------------
+| $TestScore = B_0 + B_1 \cdot ClassSize + B_2 \cdot SES + e_1$ | $(Full \ Model)$ |
+| $TestScore = b_0 + b_1 \cdot ClassSize + e_2$  |   $(Naive \ Model)$ |
+| $SES = a_0 + a_1 \cdot ClassSize + e_3$  |  $(Auxiliary \  Regression)$ | 
+
+
 
 ```{r, eval=T, echo=F, results='asis'}
 
