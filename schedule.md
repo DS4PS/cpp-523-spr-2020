@@ -1010,9 +1010,11 @@ When you are complete:
 What happens when we omitt SES from the Classroom Size model?
 
 ```
-# full regression: TS = B0 + B1*CS + B2*SES
-# naive regression in the example: TS = b0 + b1*CS
+# full regression:   TS = B0 + B1*CS + B2*SES
+# naive regression:  TS = b0 + b1*CS
 ```
+
+*Recall when ***B1** is used for the slope it represents the **correct** slope and **b1** represents the slope that comes from an incomplete model or from a small sample and thus will likely be biased.*
 
 Calculations for bias: 
 
