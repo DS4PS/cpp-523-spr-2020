@@ -1005,6 +1005,72 @@ When you are complete:
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.assignment_url}}">SUBMIT LAB</a>
 
+### Omitted Variable Bias Calculations:
+
+What happens when we omitt SES from the Classroom Size model?
+
+```
+# full regression: TS = B0 + B1*CS + B2*SES
+# naive regression in the example: TS = b0 + b1*CS
+```
+
+Calculations for bias: 
+
+```r
+URL <- "https://raw.githubusercontent.com/DS4PS/cpp-523-fall-2019/master/labs/class-size-seed-1234.csv"
+dat <- read.csv( URL )
+
+
+# naive regression in the example: TS = b0 + b1*CS
+m.naive <- lm( test ~ csize, data=dat  )
+summary( m.naive )
+
+# Coefficients:
+# ----------------------------------
+#             Estimate Std. Error t value Pr(>|t|)    
+# (Intercept) 738.3366     4.8788  151.34   <2e-16 ***
+# csize        -4.2221     0.1761  -23.98   <2e-16 ***
+# ----------------------------------
+
+
+# full regression: TS = B0 + B1*CS + B2*SES
+m.full <- lm( test ~ csize + ses, data=dat  )
+summary( m.full )
+
+# Coefficients:
+# ----------------------------------
+#             Estimate Std. Error t value Pr(>|t|)    
+# (Intercept)  665.289     76.574   8.688   <2e-16 ***
+# csize         -2.671      1.632  -1.637    0.102    
+# ses           16.344     17.098   0.956    0.339    
+# ----------------------------------
+
+
+# auxiliary regression to get a1:  SES = a0 + a1*CS
+m.auxiliary <- lm( ses ~ csize, data=dat )
+summary( m.auxiliary )
+
+# lm(formula = ses ~ csize, data = dat)
+# Coefficients:
+# ----------------------------------
+#              Estimate Std. Error t value Pr(>|t|)    
+# (Intercept)  4.469458   0.009033   494.8   <2e-16 ***
+# csize       -0.094876   0.000326  -291.0   <2e-16 ***
+# ----------------------------------
+
+
+# b1 = B1 + bias
+# b1 - B1 = bias
+b1 <- -4.22
+B1 <- -2.67
+b1 - B1
+
+# bias = a1*B2
+a1 <- -0.0949
+B2 <- 16.34
+a1*B2
+```
+
 <br>
 <br>
 
