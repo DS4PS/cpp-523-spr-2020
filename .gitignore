@@ -8,4 +8,4 @@ _site
 .jekyll-metadata
 
 # R files
-*.Rhistory
+.Rhistory
