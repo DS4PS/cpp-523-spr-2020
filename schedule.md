@@ -1122,6 +1122,8 @@ Once you have completed this section you will be able to run and interpret regre
 
 [Practice Questions](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Regression%20with%20Interaction%20Effects.pdf)
 
+[SOLUTIONS](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/handouts/Regression-with-Interaction-Effects-SOLUTIONS.pdf)
+
 <br>
 <br>
 
