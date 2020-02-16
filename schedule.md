@@ -1115,7 +1115,10 @@ Once you have completed this section you will be able to run and interpret regre
 
 ## Assigned Lecture Materials
 
-[Hypothesis-Testing With Groups](https://ds4ps.org/cpp-523-spr-2020/lectures/dummy-variables.html) 
+[Hypothesis-Testing With Groups Part-01](https://ds4ps.org/cpp-523-spr-2020/lectures/dummy-variables.html) 
+
+[Hypothesis-Testing With Groups Part-02](https://github.com/DS4PS/cpp-523-spr-2020/raw/master/lectures/hypotheses-tests-with-dummy-variables.pdf) 
+
 
 
 ## Lab Preview 
