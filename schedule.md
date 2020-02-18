@@ -1242,8 +1242,25 @@ For this lab you will run and interpret a quadratic regression, and interpret co
 
 
 
-*** { @unit = "TUE Feb-18", @title = "Mini-Assessment 05", @assignment  }
+*** { @unit = "FRI Feb-21", @title = "Mini-Assessment 05", @assignment  }
 
+<br>
+<br>
+
+This mini-assessment tests your understanding of the interpretation of dummy variables in regression models. 
+
+```r
+# test of group means
+y = b0 + b1(female) + e
+
+# test of slope differences
+y = b0 + b1(X) + b2(female) + b3(female•X) + e
+```
+
+<a class="uk-button uk-button-primary" href="https://canvas.asu.edu/courses/41574/quizzes/306569">Start the Mini-Assessment</a>
+
+<br>
+<br>
 
 
 
