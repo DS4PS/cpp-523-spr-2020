@@ -1242,7 +1242,7 @@ For this lab you will run and interpret a quadratic regression, and interpret co
 
 
 
-*** { @unit = "FRI Feb-21", @title = "Mini-Assessment 05", @assignment  }
+*** { @unit = "FRI Feb-21", @title = "Mini-Assessment 05", @assignment, @foldout  }
 
 <br>
 <br>
