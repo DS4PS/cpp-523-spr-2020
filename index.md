@@ -3,24 +3,24 @@ layout: index
 title: Syllabus
 
 index:
-    title: Foundations of Program Evaluation I
+    title: Foundations of Program Evaluation III
     image: distribution.svg
-    subtitle: Regression analysis for the study of program impact.
+    subtitle: Econometrics techniques for program evaluation. 
     
 info: 
  program_title: Program Evaluation and Data Analytics
  program_website: 
- course_title: Foundations of Program Evaluation Part I
- course_number: CPP 523 
+ course_title: Foundations of Program Evaluation Part III
+ course_number: CPP 525 
  course_level: Graduate 
  course_website: 'https://canvas.asu.edu/courses/41574'
- course_start_end_dates: Jan 13 to March 03, 2020 
- course_prerequisites: College Level Intro. to Stats 
+ course_start_end_dates: March 16 to May 01, 2020 
+ course_prerequisites: CPP 523
  class_meets_when:  Asynchronous  
- class_meets_where:  'https://asu.zoom.us/j/293038379'
+ class_meets_where:  ''
  review_sessions_when: TBD 
  review_sessions_where: 
- discussion_board_url: 'https://ds4ps.org/cpp-523-spr-2020/help/'
+ discussion_board_url: 'https://ds4ps.org/cpp-525-spr-2020/help/'
 
 instructor:
 -  name: Irene Tsapara, PhD
@@ -60,49 +60,37 @@ textbooks:
 
 # I.  Course Description, Course Goal and Course Learning Objectives:
 
-Regression serves as the foundation for modern quantitative program evaluation techniques, so this course establishes a baseline set of skills that will be extended in the next two sections. Regression analysis is not a single thing – it is a powerful set of tools used to examine relationships in data and test hypotheses concerning the significance of these relationships. Regression can be used to analyze observational data, in which case it can be used to identify important correlations that help us predict when events will occur together. In the program evaluation context we are specifically interested in causal analysis, which allows us to determine whether a management practice, a nonprofit or government program, or a specific public policy has a positive impact. When certain conditions are met we can use regression analysis to estimate the impact of a policy or program. This first course will build a foundational understanding of the mechanics of multiple regression, the proper interpretation of regression models, and the circumstances in which we can use regression results for causal reasoning.
+Regression serves as the foundation for modern quantitative program evaluation techniques. It is a powerful set of tools used to examine relationships in data and test hypotheses concerning the significance of these relationships. Regression can be used to analyze observational data, in which case it can be used to identify correlational relationships to predict when events will occur together. In the program evaluation context we are specifically interested in causal analysis, which allows us to determine whether a management practice, a nonprofit or government program, or a specific public policy has a positive impact. When certain conditions are met we can use regression analysis to produce an imperfect but reasonable estimate the causal impact of a policy or program. 
 
-The five main learning objectives for the course are:
+This course helps you expand your program evaluation toolkit by demonstrating how to estimate several common regression models that leverage unique data and counterfactual specifications. The previous course on research design (CPP 524) covered a collection of experimentatal and quasi-experimental approaches to estimating program impact. This course extends the previous material by translating each specific form of the counterfactual – pre-post with comparisons, reflexive design, and the post-test only design – into specific regression models that leverage each counterfactual. This course teaches you how to estimate program effects using a given research design. We will cover the following models organized by counterfactuals: 
 
-- The ability to run a multiple regression model and interpret the results.
-- Knowledge of how adding or removing control variables from a model will change the accuracy (bias) and precision (efficiency) of the model.
-- Knowledge of the causes and consequences of omitted variable bias, it&#39;s impact on causal analysis, and the circumstances in which we can interpret regression results as correlational or causal.
-- The ability to translate regression results to an articulation of program impact using effect sizes and confidence intervals to offer responsible evidence-based recommendations to managers and policy-makers.
-- Diagnosis of common specification problems in regression analysis such as outliers, nonlinearity, multi-collinearity, and measurement error.
+**Pre-post with comparison group:**
+(1) difference-in-difference regression
+(2) panel models using fixed effects
+**Reflexive design:** 
+(3) time series analysis
+**Post-test only design:**
+(4) propensity score matching
+(5) regression discontinuity design
+
+We also cover (6) instrumental variables and (7) logistic regression. 
+
+The main learning objectives for the course are:
+
+* Gaining comfort with hypothesis-testing using regression models 
+* Developing the ability to select the best model to evaluate a specific program 
+* Be able to identify the implicit counterfactual used in each model 
+* Gain knowledge of assumptions of each model 
+
 
 
 
 ## Course Prerequisites:
 
-To be successful in this program you need some basic background in statistics including familiarity with the following topics:
+This course will build upon material presented in Foundations of Program Evaluation II.
 
-- Variable types – numeric, categorical, binary
-- Descriptive statistics such as the mean, median, mode, quantiles, and standard deviation
-- Scatterplots, bar charts, and histograms
-- Basic probability and sampling
-- Confidence intervals
-- Hypothesis testing
+To be successful in this program you need foundational knowledge about regression models covered in CPP 523 or a similar class. Basic R knowledge is assumed, including the ability to use R Markdown documents for labs.  
 
-### Intro Stats Review 
-
-If you need a refresher, you can try one of the free online statistics courses on Khan Academy, EdEx, Coursera, Udacity or other sites, or visit the OpenStax free [Introductory Statistics textbook](https://cnx.org/contents/30189442-6998-4686-ac05-ed152b91b9de) and review:
-
-- Chapter 1 – Sampling Data
-- Chapter 2 – Descriptive Statistics
-- Chapter 8 – Confidence Intervals
-- Chapter 9 – Hypothesis Testing with One Sample
-- Chapter 10 – Hypothesis Testing with Two Samples
-- Chapter 12 – Linear Regression and Correlation
-
-### Basic Regression
-
-The **OpenIntro Statistics** textbook does a great job of covering regression using simple notation (see CH-08). 
-
-*Diez, D. M., Barr, C. D., & Cetinkaya-Rundel, M. (2012). OpenIntro statistics (pp. 174-175). OpenIntro.*
-
-* Chapter 8 - Introduction to Linear Regression
-
-It is [free online](https://leanpub.com/openintro-statistics) through LeanPub.
 
 
 ### Math
@@ -118,14 +106,10 @@ We will use basic probability, logarithms, and exponents, all at a high school l
 
 We will rely heavily on visual reasoning with the data, an intuitive understanding of regression mechanics, and a strong understanding of the interpretation of results, but for the most part we will rely on software for advanced mathematical calculations.
 
-**Sampling distribution of the slope**
-
-![](https://github.com/lecy/regression-simulations/raw/master/GIFS/sampling_dist_slope.gif)
 
 
 
-
-# II. Assessment of Student Learning Performance &amp; Proficiency: Keys to Student Success
+# II. Assessment of Student Learning Performance & Proficiency: Keys to Student Success
 
 Assessment of student performance in this course is based on indications that the course learning objectives stated above have been achieved.  Several areas of measurement will be used to produce a final student performance rating.  These areas of performance assessment include the following:
 
@@ -133,15 +117,11 @@ Assessment of student performance in this course is based on indications that th
 - Ability to run and interpret program evaluation models by correctly specifying a multiple regression equation, diagnosing problems, and presenting findings to stakeholders.
 - Completed assignments are measured and assessed based on a demonstrated understanding of core regression concepts and the ability to clearly and accurately interpret model results.
 
-Students will demonstrate competency in understanding, producing and communicating results of their analyses through the following assignments:
+Students will demonstrate competency in understanding, producing and communicating results of their analyses through weekly labs. 
 
-- Short (1-5 question) assessments associated with lectures to ensure basic comprehension of key concepts and to help students and instructors track progress through the course.
-- Weekly labs that provide opportunities to consolidate and apply material from the lectures.
-- A final examination that tests mastery of the learning objectives above.
+The course grade is a direct reflection of performance on labs. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflective of outstanding performance.  
 
-Assigned work including the course final exam are used to measure comprehension and skill; the student&#39;s course grade is a direct reflection of demonstrated performance. Students should take stated expectations seriously regarding preparation, conduct, and academic honesty in order to receive a grade reflective of outstanding performance.  
-
-Students should be aware that merely completing assigned work in no way guarantees an outstanding grade in the course. To receive an outstanding course grade (using the grading scheme described below and the performance assessment approach noted above) all assigned work should completed on time with careful attention to assignment details.
+Students should be aware that merely completing assigned work in no way guarantees an outstanding grade in the course. To receive an outstanding course grade all assigned work should completed on time with careful attention to assignment details.
 
 # III. Course Structure and Operations; Performance Expectations
 
@@ -165,13 +145,7 @@ The purpose of all exams and assigned written work is also threefold: (1) the as
 
 ## B. Assigned Reading Materials
 
-There are two required texts for this course, both available online:
-
-### Needed for Lab-01 only:
-
-- Lewis-Beck, C., &amp; Lewis-Beck, M. (2015). _Applied Regression: An Introduction_ (Vol. 22). Sage publications.
-
-### For use in CPP 524: Foundations in Prog Eval II
+There is one required texts for this course, and it is available online for free:
 
 - Gertler, P. J., Martinez, S., Premand, P., Rawlings, L. B., &amp; Vermeersch, C. M. J. (2011). _Impact Evaluation in Practice._ The World Bank. Washington. Available free online.
 
@@ -195,10 +169,8 @@ In addition to the required textbooks, the instructor will supplement the assign
 ## C.  Course Grading System for Assigned Work, including Final Exam:
 
 Your grade will be based on your performance in the following areas:
-
-- Short multiple choice assessments  
+ 
 - Weekly labs
-- Final exam
 
 Letter grades comport with a traditional set of intervals:
 
@@ -211,11 +183,9 @@ Letter grades comport with a traditional set of intervals:
 
 The assigned work for the term comes in the form of four elements, described below:
 
-- **Weekly Labs (50%):**  Each week you will receive a lab that will help you synthesize the lectures from the week though exercises that involve data, analysis, and important formulas from the lectures. These labs contain exercises that are similar in form or difficulty to what will be presented on the final exam. They are graded pass / fail by the instructors based upon an assessment of whether you have sincerely attempted the lab and answered over half of the questions correctly. This is designed to hold you accountable for the material, but not create anxiety about perfection. Each lab is worth 10 points so that you can drop one lab in case you get sick or busy. 
+- **Weekly Labs (100%):**  Each week you will be given a lab based upon a new regression model. 
 
-- **Rapid Assessments (10%):** Some lecturse will be accompanied by a short (1-5 question) multiple choice or regression-based quiz. These are designed to ensure that you are grasping the important concepts associated with each lecture. The content in this class is cumulative, the material each week building upon the previous week. We cover complex topics with a lot of nuances, so you may feel uncomfortable if you don't understand everything from a lecture. Don't worry – we will revisit a lot of this material many times through the program to reinforce important ideas and introduce more detail in subsequent stages. These quizzes are designed to give you immediate feedback about whether you grasped the core concepts so that you can spend more time on some material or seek help when necessary.
-
-- **Final Exam (40%):**  The course will close with a written final exam which will be comprehensive in nature. The exam will be an individual effort with no exceptions.  In no way shape or form should will it be permissible to discuss any aspect of the exam with anyone else; neither classmates nor anyone else should be consulted while students complete the exam. Notes and textbooks are permitted during the exam. It will be designed as a means of testing overall comprehension of key concepts and issues covered during the term, and as a check on course learning objectives being met.
+- **Final Quiz (10%):**  The course will conclude with a quiz
 
 
 ## D. General Grading Rubric for Written Work
