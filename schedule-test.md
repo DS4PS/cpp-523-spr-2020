@@ -1,6 +1,6 @@
 ---
 layout: schedule
-title: Schedule
+title: Schedule-Test
 
 canvas: 
   assignment_url: 'https://canvas.asu.edu/courses/41574/assignments'
