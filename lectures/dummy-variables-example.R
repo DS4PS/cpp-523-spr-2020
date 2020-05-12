@@ -26,12 +26,12 @@ regular <- rep( c(0,1,0,1), times=c(800,1500,1200,500) )
 
 
 
+set.seed( 99 )
+
 d1 <- rnorm( 400,75.5,10)  # suburban tfa
 d2 <- rnorm( 700,75,10)    # suburban reg
 d3 <- rnorm( 600,66,10)    # urban tfa
 d4 <- rnorm( 300,57,10)    # urban reg
-
-
 
 
 d1[ d1 > 100 ] <- mean(d1)
@@ -103,5 +103,15 @@ dat <- data.frame( y, d.sub=suburban, d.urb=urban, d.tfa=tfa, d.reg=regular,
                    d.urb.tfa=urban.tfa, d.urb.reg=urban.reg )
 
 dat
+
+
+
+#################################
+
+dat <- data.frame( y, d.sub=suburban, d.urb=urban, d.tfa=tfa, d.reg=regular,
+                   d.sub.tfa=suburban.tfa, d.sub.reg=suburban.reg, 
+                   d.urb.tfa=urban.tfa, d.urb.reg=urban.reg )
+
+
 
 
